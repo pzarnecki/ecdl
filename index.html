@@ -255,6 +255,24 @@
     </section>
 </div>
 
+    <!-- CHAT WIDGET -->
+    <div id="chat-widget">
+        <button id="chat-toggle" onclick="toggleChat()">💬 Zapytaj Bajta</button>
+        <div id="chat-window" style="display: none;">
+            <div id="chat-header">
+                <strong>Bajt - Wirtualny Asystent</strong>
+                <button onclick="toggleChat()" style="background:none; border:none; color:white; cursor:pointer;">✖</button>
+            </div>
+            <div id="chat-messages">
+                <div class="chat-msg bot-msg">Cześć! Jestem Bajt 🤖. Jeśli utkniesz na jakimś zadaniu z Worda lub Excela (albo po prostu chcesz pogadać), śmiało pytaj!</div>
+            </div>
+            <div id="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Wpisz pytanie...">
+                <button onclick="sendMessage()">Wyślij</button>
+            </div>
+        </div>
+    </div>
+
 <footer>
     <h4>Autor i prowadzący szkolenie: Przemysław Żarnecki</h4>
     <p>Projekt i logika portalu (w tym silnik quizowy oraz generowane bazy pytań i zadań) są autorskimi materiałami prowadzącego (oznaczone jako zielone plakietki).</p>
@@ -266,6 +284,7 @@
 <script src="js/db_practical.js"></script>
 <!-- Logika Aplikacji -->
 <script src="js/app.js"></script>
+<script src="js/chat.js"></script>
 
 </body>
 </html>

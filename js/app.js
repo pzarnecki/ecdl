@@ -52,6 +52,12 @@ function loadPracticalTasks() {
             ? `<span class="badge" style="background:#fff3cd; color:#856404; border:1px solid #ffeeba;">${task.date}</span>` 
             : '';
 
+        let actionsHtml = `<a href="zadania_pliki/${task.file}" class="btn" target="_blank" download>Otwórz / Pobierz Pliki</a>`;
+        
+        if (task.questionFile) {
+            actionsHtml += `<a href="zadania_pliki/${task.questionFile}" class="btn" style="background-color: #28a745; margin-top: 5px;" target="_blank" download>Pobierz Arkusz Pytań</a>`;
+        }
+
         const li = document.createElement('li');
         li.className = 'item-card';
         li.innerHTML = `
@@ -60,8 +66,8 @@ function loadPracticalTasks() {
                 <h3>${task.title}</h3>
                 <p>${task.description}</p>
             </div>
-            <div class="item-action">
-                <a href="zadania_pliki/${task.file}" class="btn" target="_blank" download>Otwórz / Pobierz</a>
+            <div class="item-action" style="display: flex; flex-direction: column; gap: 5px;">
+                ${actionsHtml}
             </div>
         `;
         list.appendChild(li);

@@ -75,18 +75,50 @@ const db_practical = [
         "id": 7,
         "module": "B1",
         "title": "Test próbny (Egzamin)",
-        "description": "Wypakuj archiwum <strong>b1_test_probny_pliki.zip</strong>. Odpowiedz na pytania zawarte w znajdujących się tam plikach i zmień nazwę folderu na 'Wynik_B1_TwojeNazwisko'.",
+        "description": "Wypakuj archiwum <strong>b1_test_probny_pliki.zip</strong>, które zawiera foldery i pliki ćwiczeniowe. Następnie pobierz arkusz z poleceniami (Przycisk: Pobierz Arkusz Pytań) i krok po kroku wykonuj zadania.",
         "file": "b1_test_probny_pliki.zip",
         "source": "external",
-        "date": "2026-08-01"
+        "date": "2026-08-01",
+        "questionFile": "b1pytania.docx"
     },
     {
         "id": 8,
         "module": "B4",
-        "title": "Egzamin Próbny (Arkusze)",
-        "description": "Rozpakuj plik <strong>egzamin_probny_b4_1.zip</strong> i wykonaj krok po kroku wszystkie polecenia zapisane w arkuszu. Zapisz zmiany w pliku.",
+        "title": "Egzamin Próbny 1 (Arkusze)",
+        "description": "Rozpakuj plik <strong>egzamin_probny_b4_1.zip</strong>. Pobierz arkusz z poleceniami i wykonuj krok po kroku zadania zliczania i formatowania.",
         "file": "egzamin_probny_b4_1.zip",
         "source": "external",
-        "date": "2026-08-01"
+        "date": "2026-08-01",
+        "questionFile": "b4pytania_1.docx"
+    },
+    {
+        "id": 11,
+        "module": "B2",
+        "title": "Egzamin Próbny 1 (Internet)",
+        "description": "Pobierz i rozpakuj pliki z <strong>egzamin_probny_b2_1.zip</strong>. Pobierz arkusz pytań i postępuj zgodnie z poleceniami.",
+        "file": "egzamin_probny_b2_1.zip",
+        "source": "external",
+        "date": "2026-08-01",
+        "questionFile": "b2pytania.docx"
+    },
+    {
+        "id": 12,
+        "module": "B3",
+        "title": "Egzamin Próbny A (Word)",
+        "description": "Rozpakuj pliki z <strong>egzamin_probny_b3.zip</strong>. Pobierz odpowiedni arkusz pytań dla zestawu A i przeformatuj dokument.",
+        "file": "egzamin_probny_b3.zip",
+        "source": "external",
+        "date": "2026-08-01",
+        "questionFile": "b3pytania_a.docx"
+    },
+    {
+        "id": 13,
+        "module": "B3",
+        "title": "Egzamin Próbny B (Word)",
+        "description": "Rozpakuj pliki z <strong>egzamin_probny_b3_1.zip</strong>. Pobierz odpowiedni arkusz pytań dla zestawu B i sformatuj pismo.",
+        "file": "egzamin_probny_b3_1.zip",
+        "source": "external",
+        "date": "2026-08-01",
+        "questionFile": "b3pytania_b.docx"
     }
 ];

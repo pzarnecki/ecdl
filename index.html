@@ -17,6 +17,7 @@
     <nav class="tabs">
         <button class="tab-btn active" data-target="materiały">Materiały i Teoria</button>
         <button class="tab-btn" data-target="praktyka">Zadania Praktyczne</button>
+        <button class="tab-btn" data-target="dodatkowe">Zadania Dodatkowe</button>
         <button class="tab-btn" data-target="testy">Testy Interaktywne</button>
     </nav>
 
@@ -111,6 +112,92 @@
         </div>
         <ul class="item-list" id="practical-list">
             <!-- Będzie wypełnione przez app.js -->
+        </ul>
+    </section>
+
+    <!-- SECTION: ZADANIA DODATKOWE -->
+    <section id="dodatkowe" class="section">
+        <h2>Zadania Dodatkowe (Życiowe)</h2>
+        <p style="margin-bottom: 20px;">Angażujące, praktyczne zadania z życia codziennego. Rozwiń podpowiedź, jeśli utkniesz!</p>
+
+        <ul class="item-list">
+            <!-- Zadanie 1 -->
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">B1 / Bezpieczeństwo</span> <span class="badge author">Materiały autorskie</span>
+                    <h3>Detektyw Systemowy i Wielkie Porządki</h3>
+                    <p>Pobierz i wypakuj poniższe archiwum ZIP. W systemie Windows włącz widoczność rozszerzeń plików. Znajdź i usuń groźny plik udający PDF, a resztę posegreguj w foldery według typu plików.</p>
+                    <details style="margin-top:10px; background:#f9f9f9; padding:10px; border-radius:5px; border-left:3px solid #17a2b8;">
+                        <summary style="cursor:pointer; font-weight:bold; color:#17a2b8;">Pokaż podpowiedź krok po kroku</summary>
+                        <p style="margin-top:10px; font-size: 0.95em;">
+                            1. Pobierz plik ZIP, kliknij prawym przyciskiem myszy i wybierz <strong>Wyodrębnij wszystkie...</strong>.<br>
+                            2. Aby widzieć końcówki plików (np. .jpg, .pdf) w oknie eksploratora u góry wybierz zakładkę <strong>Widok</strong>, a następnie w grupie "Pokazywanie/ukrywanie" zaznacz <strong>Rozszerzenia nazw plików</strong>.<br>
+                            3. Teraz uważnie przyjrzyj się fakturom. Jedna z nich tak naprawdę ma końcówkę <strong>.pdf.exe</strong> - to popularna sztuczka hakerów. Zaznacz ten plik i usuń go (klawisz Delete).
+                        </p>
+                    </details>
+                </div>
+                <div class="item-action">
+                    <a href="zadania_pliki/balagan_na_pulpicie.zip" class="btn" target="_blank" download>Pobierz ZIP</a>
+                </div>
+            </li>
+
+            <!-- Zadanie 2 -->
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">B2 / Internet</span> <span class="badge author">Materiały autorskie</span>
+                    <h3>Polowanie na Phishing (Oszustwo)</h3>
+                    <p>Otwórz poniższy plik HTML, który symuluje powiadomienie e-mail od rzekomego banku. Znajdź minimum 3 "czerwone flagi" wskazujące, że jest to fałszywa wiadomość (oszustwo).</p>
+                    <details style="margin-top:10px; background:#f9f9f9; padding:10px; border-radius:5px; border-left:3px solid #17a2b8;">
+                        <summary style="cursor:pointer; font-weight:bold; color:#17a2b8;">Pokaż podpowiedź krok po kroku</summary>
+                        <ul style="margin-top:10px; font-size: 0.95em; padding-left: 20px;">
+                            <li><strong>Adres e-mail:</strong> Spójrz w nawias obok "Bezpieczenstwo Bank". Jest to adres <i>bannk-polska.com</i> - posiada literówkę, co jest częstą sztuczką!</li>
+                            <li><strong>Brak personalizacji:</strong> Wiadomość zaczyna się od "Drogi Kliencie" zamiast zwrócić się po imieniu i nazwisku. Banki z reguły znają Twoje dane.</li>
+                            <li><strong>Presja czasu:</strong> Hakerzy straszą (zablokowanie konta, 24 godziny), by ofiara kliknęła link w panice bez zastanowienia.</li>
+                        </ul>
+                    </details>
+                </div>
+                <div class="item-action">
+                    <a href="zadania_pliki/falszywy_mail.html" class="btn" target="_blank" download>Otwórz Email</a>
+                </div>
+            </li>
+
+            <!-- Zadanie 3 -->
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">B2 / Poczta</span> <span class="badge author">Materiały autorskie</span>
+                    <h3>Kultura korespondencji: Magia UDW (BCC)</h3>
+                    <p>Zadanie: Jako recepcjonista musisz wysłać zaproszenie do grupy 5 obcych dla siebie klientów. Pobierz bazę i przygotuj wiadomość tak, aby żaden z nich nie widział maili pozostałych osób.</p>
+                    <details style="margin-top:10px; background:#f9f9f9; padding:10px; border-radius:5px; border-left:3px solid #17a2b8;">
+                        <summary style="cursor:pointer; font-weight:bold; color:#17a2b8;">Pokaż podpowiedź krok po kroku</summary>
+                        <p style="margin-top:10px; font-size: 0.95em;">
+                            Wysyłając maile do dużej, zamkniętej grupy osób (np. klientów, studentów), <strong>nigdy nie dodajemy adresów do pola DO (To)</strong>. Narusza to prywatność i RODO (każdy widzi każdego).<br>
+                            Używaj zawsze <strong>UDW (Ukryte do wiadomości / BCC)</strong>. Swojego maila wstaw w polu "DO", a maile pobrane z pliku wklej w pole "UDW". W ten sposób każdy klient otrzyma zaproszenie, ale pomyśli, że zostało wysłane tylko do niego!
+                        </p>
+                    </details>
+                </div>
+                <div class="item-action">
+                    <a href="zadania_pliki/baza_klientow.csv" class="btn" target="_blank" download>Pobierz CSV</a>
+                </div>
+            </li>
+
+            <!-- Zadanie 4 -->
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">B2 / Internet</span> <span class="badge author">Materiały autorskie</span>
+                    <h3>Prywatność: Poczta Tymczasowa</h3>
+                    <p>W internecie nie musisz podawać swojego prawdziwego adresu, gdy pobierasz darmowego e-booka czy czytasz artykuł chroniony blokadą e-mail. Użyj "jednorazowej" poczty e-mail, aby zachować skrzynkę czystą od spamu.</p>
+                    <details style="margin-top:10px; background:#f9f9f9; padding:10px; border-radius:5px; border-left:3px solid #17a2b8;">
+                        <summary style="cursor:pointer; font-weight:bold; color:#17a2b8;">Pokaż podpowiedź krok po kroku</summary>
+                        <p style="margin-top:10px; font-size: 0.95em;">
+                            Wejdź na stronę taką jak np. <strong>temp-mail.org</strong> lub <strong>10minutemail.com</strong> (przycisk obok). <br>
+                            Strona automatycznie wygeneruje Ci skrzynkę e-mail na najbliższe 10 minut. Skopiuj go, użyj tam gdzie trzeba, a wiadomość zwrotna i link aktywacyjny dotrą bezpośrednio na widoczną stronę. Potem ten adres zniknie bezpowrotnie, tak jak i ewentualny SPAM!
+                        </p>
+                    </details>
+                </div>
+                <div class="item-action">
+                    <a href="https://temp-mail.org/pl/" class="btn" target="_blank">Otwórz Temp-Mail</a>
+                </div>
+            </li>
         </ul>
     </section>
 

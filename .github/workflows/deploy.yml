@@ -30,7 +30,9 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Konfiguracja GitHub Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
         
       - name: Przygotowanie plików portalu (Upload)
         uses: actions/upload-pages-artifact@v3

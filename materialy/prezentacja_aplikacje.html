@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Szkolenie ECDL - Aplikacje i Praca w Sieci</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/theme/dracula.min.css" id="theme">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/highlight/monokai.min.css">
+    <style>
+        .reveal h1, .reveal h2, .reveal h3 { text-transform: none; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .reveal h1 { font-size: 2.2em; color: #ffb86c; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .reveal h2 { font-size: 1.6em; color: #8be9fd; margin-bottom: 30px; }
+        .reveal h3 { font-size: 1.3em; color: #50fa7b; }
+        .reveal p, .reveal li { font-size: 1.0em; line-height: 1.5; color: #f8f8f2; }
+        .highlight { color: #f1fa8c; font-weight: bold; }
+        .box { background: rgba(68, 71, 90, 0.5); padding: 20px; border-radius: 10px; border-left: 5px solid #ffb86c; margin-bottom: 20px; text-align: left; }
+        .reveal ul { margin-bottom: 20px; display: inline-block; text-align: left; }
+        .reveal ul li { margin-bottom: 10px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 30px; }
+        .grid div { background: rgba(255, 255, 255, 0.05); padding: 25px; border-radius: 15px; }
+        
+        /* WebGL Background overrides */
+        body, .reveal-viewport, .reveal {
+            background-color: transparent !important;
+            background: transparent !important;
+        }
+        
+        /* Glassmorphism box for slides */
+        .reveal .slides section {
+            background: rgba(40, 42, 54, 0.75) !important;
+            padding: 40px !important;
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        #webgl-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div id="webgl-bg"></div>
+    
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown>
+                <textarea data-template>
+# Aplikacje Biurowe i Nowoczesna Praca
+## Kompleksowe Szkolenie Modułowe
+---
+
+## Co nas czeka w tej części?
+Cztery filary nowoczesnego pracownika biurowego (Certyfikacja ECDL):
+1. **MS Word** (Przetwarzanie tekstu)
+2. **MS Excel** (Arkusze kalkulacyjne)
+3. **MS PowerPoint** (Tworzenie prezentacji)
+4. **Praca w Chmurze** (Współpraca w sieci)
+
+---
+
+## Dlaczego ECDL?
+* Standaryzacja wiedzy. 
+* To nie tylko "klikanie", to poznanie *prawidłowych* i najszybszych metod pracy.
+* Redukcja stresu technologicznego na co dzień.
+
+---
+
+<!-- SECTION 1: WORD -->
+# 1. Przetwarzanie Tekstu (Word)
+Wielka sztuka tworzenia dokumentów, pism i raportów.
+
+---
+
+## Czym jest Edytor Tekstu?
+To program stworzony do zarządzania układem dokumentów do druku lub dystrybucji PDF. 
+To NIE jest maszyna do pisania – Word to inteligentne narzędzie, które robi wiele rzeczy "w tle". Musimy tylko wiedzieć, jak z nim współpracować.
+
+---
+
+## Zasada nr 1: "Zaznacz, by zmienić"
+Większość błędów w Wordzie wynika z braku wskazania komputerowi, o który tekst nam chodzi.
+<div class="box">
+Najpierw zaznacz fragment tekstu, a dopiero potem klikaj ikony formatowania!
+</div>
+* Dwuklik: Zaznacza pojedyncze słowo.
+* Trójklik: Zaznacza cały akapit tekstu.
+
+---
+
+## Korygowanie błędów (Usuwanie)
+Zauważyłeś literówkę w środku wyrazu?
+<div class="grid">
+<div>
+<h3>Klawisz Backspace</h3>
+Usuwa znaki znajdujące się <b>PRZED</b> migającym kursorem.
+</div>
+<div>
+<h3>Klawisz Delete</h3>
+Usuwa znaki znajdujące się <b>ZA</b> migającym kursorem.
+</div>
+</div>
+
+---
+
+## Nowy akapit vs. nowa linijka
+Najważniejsza klawiszologia w edytorze tekstu!
+* **Klawisz ENTER:** Tworzy całkowicie nowy akapit (nową myśl). Dodaje pod spodem domyślny, większy odstęp.
+* **Shift + ENTER:** Przenosi tekst do nowej linijki, ale nadal w tym samym akapicie (bez odstępu).
+
+---
+
+## Błąd Krytyczny - "Ucinanie linijek"
+<div class="box">
+Nigdy nie wciskaj Entera tylko dlatego, że zbliżasz się do końca ekranu z prawej strony!
+</div>
+Word sam przeniesie wyraz do nowej linijki, dostosowując się do marginesów. Jeśli wciśniesz Enter, a potem ktoś zmieni rozmiar czcionki na mniejszy – Twoje zdania połamią się w połowie długości kartki!
+
+---
+
+## Tabulator vs. Spacja (Zmora Biur!)
+<div class="box">
+Nigdy nie pozycjonuj tekstu wciskając spację 15 razy!
+</div>
+* Do stworzenia wcięcia akapitowego służy wyłącznie klawisz **Tab** na klawiaturze.
+* Spacja traktowana jest jako znak (jak litera). Jej wielkość zależy od czcionki. 
+* Tabulator z kolei zawsze skacze o tę samą odległość w milimetrach, niezależnie od czcionki.
+
+---
+
+## Formatowanie Akapitów (Wyrównanie)
+Tekst na kartce można ustawić w czterech trybach pozycjonowania:
+1. **Do lewej (Ctrl+L):** Standardowy tekst, prawa krawędź jest "poszarpana".
+2. **Do środka (Ctrl+E):** Głównie na tytuły i nagłówki.
+3. **Do prawej (Ctrl+R):** Na adresy, numery kont, daty w prawym rogu.
+4. **Wyjustowanie (Ctrl+J):** Równo "od linijki" z lewej i prawej strony (standard książkowy).
+
+---
+
+## Interlinia i "Światło" na stronie
+Jeśli tekst jest zbity w jeden wielki czarny blok:
+* **Interlinia** to odstęp w pionie pomiędzy linijkami tekstu.
+* Zwiększenie jej do wartości np. 1.5 ułatwia czytanie.
+* Przydatne zwłaszcza na dokumentach, po których ktoś później rysuje długopisem (np. dodaje swoje uwagi).
+
+---
+
+## Magia "Malarza Formatów"
+Genialne narzędzie oszczędzające Twój czas.
+* Masz ładnie sformatowane słowo (czerwone, pogrubione, pochylone)?
+* Zaznacz je.
+* Kliknij ikonę **"Malarz formatów"** (miotła).
+* Następnie "pomaluj" zaznaczając inne, zwykłe słowo w dokumencie. Ułamek sekundy i gotowe!
+
+---
+
+## Listy Punktowane i Numerowane
+Zapomnij o ręcznym wpisywaniu myślników i jedynek!
+* **Punktory:** Automatyczne kropeczki dla list bez hierarchii (np. lista zakupów).
+* **Numeracja:** Cyfry (1., 2., 3.). Po wciśnięciu klawisza Enter na końcu wiersza, Word sam wpisze kolejny numer!
+
+---
+
+## Wbudowane Style (Nagłówki)
+Najpotężniejsza broń na długie dokumenty.
+* Zamiast ręcznie pogrubiać każdy tytuł rozdziału, nadaj mu gotowy styl **"Nagłówek 1"**.
+* Po co? Ponieważ Word uczy się wtedy struktury i uważa ten fragment za fizyczny punkt orientacyjny.
+
+---
+
+## Automatyczny Spis Treści
+Dzięki wdrożeniu Nagłówków (z poprzedniego slajdu):
+* Przechodzisz do zakładki `Odwołania -> Spis treści`.
+* Klikasz przycisk i... gotowe! 
+* Kiedy dopiszesz nowe strony, wystarczy kliknąć `Aktualizuj spis`, a Word sam podmieni numery stron obok Twoich rozdziałów.
+
+---
+
+## Wstawianie Tabel (Design)
+Zwykłe tabele można narysować w ułamku sekundy:
+* `Wstawianie -> Tabela`, a następnie rysujesz siatkę (np. 3x4).
+* Aby nie była nudna, po kliknięciu w środek tabeli przejdź na górze do "Projektowanie tabeli" i jednym kliknięciem pokoloruj ją w piękne, pasujące do firmy style graficzne.
+
+---
+
+## Obrazy i zawijanie tekstu
+Obrazek często "psuje" i "rozsuwa" całą kompozycję tekstu po wrzuceniu.
+* Zaraz po wklejeniu zdjęcia kliknij w ikonę "Opcje układu" przy jego krawędzi (ikona tęczy z psem).
+* Zmień tryb z "Równo z tekstem" na **Przyległe**.
+* Gotowe! Zdjęcie można przesuwać płynnie w dowolne miejsce na całej kartce!
+
+---
+
+<!-- SECTION 2: EXCEL -->
+# 2. Arkusze Kalkulacyjne (Excel)
+Logika, analiza danych i liczby bez pomyłek.
+
+---
+
+## Czym jest Arkusz Kalkulacyjny?
+To połączenie niekończącej się tabeli danych z wbudowanym kalkulatorem naukowym. Pomaga w sortowaniu, filtrowaniu oraz na ratyfikowaniu finansów firmy w sekundę.
+
+---
+
+## Adresowanie Komórek
+Każda wartość w Excelu żyje we własnym "domu".
+* **Kolumny:** Idą w pionie, oznaczone literami (A, B, C, D...)
+* **Wiersze:** Idą w poziomie, oznaczone cyframi (1, 2, 3...)
+* Pudełko na skrzyżowaniu nazywa się Komórką. Jej adres to np. **C4**. To absolutna podstawa!
+
+---
+
+## Typy Danych - Uważaj!
+Kluczem do poprawnej pracy Excela jest pozwolić mu zrozumieć, z jakim typem ma do czynienia:
+* **Tekst:** Klienci, adresy (domyślnie wyrównane do lewej).
+* **Liczby:** Wartości. (domyślnie wyrównane do prawej). 
+* Złota uwaga: **10,50** (z przecinkiem) to liczba. **10.50** (z kropką w Polsce) to dla Excela "tekst z kropką", nie zadziałają na nim żadne mnożenia!
+
+---
+
+## Złota Zasada '='
+<div class="box">
+Excel nigdy nic nie policzy, jeśli mu tego nie zasygnalizujesz!
+</div>
+Aby otworzyć w komórce tryb kalkulatora, zawsze wpisuj na początku znak równe: `=`
+
+---
+
+## Nie wpisuj liczb w formuły!
+* Błąd: Wpisanie `=15+25` (Zysk)
+* Poprawnie: Wpisz `=`, kliknij komórkę Przychodu, wpisz `-`, kliknij komórkę Kosztów (czyli np. `=B2-C2`).
+* Dlaczego? Kiedy zmienią się dane źródłowe, Zysk przeliczy się natychmiast sam. Stałe liczby w formule wymusiłyby poprawki ręczne.
+
+---
+
+## Magiczny "Uchwyt Wypełniania"
+Znalazłeś idealną formułę i chcesz ją zastosować do 100 innych pracowników niżej?
+1. Zaznacz komórkę ze swoim poprawnym wynikiem.
+2. Namierz mały, **zielony kwadracik** w prawym dolnym narożniku obramowania komórki.
+3. Kursor zmieni się w chudy, czarny krzyżyk. Złap i pociągnij w dół!
+
+---
+
+## Adresowanie Względne
+* Excel to leniwy spryciarz. Gdy przeciągasz zielonym kwadracikiem formułę np. `=A1+B1` w dół, Excel domyślnie "ściąga" w dół również adresy komórek.
+* W następnym wierszu będzie `=A2+B2`, potem `=A3+B3`.
+* To zjawisko nazywa się Adresowaniem Względnym.
+
+---
+
+## Adresowanie Bezwzględne (Dolar)
+Czasem ta "pomoc" Excela wywołuje zera lub błędy. Co jeśli wszystkie kwoty trzeba pomnożyć przez stawkę VAT zawieszoną samotnie w komórce G1?
+* Musisz "przyszpilić" komórkę G1.
+* Wejdź w formułę, zaznacz to G1 i naciśnij klawisz **F4**.
+* Pojawią się znaczki **$G$1**. To powiadomi Excela: "ściągaj wszystko w dół oprócz tej jednej, zablokowanej komórki!". To tzw. Adresowanie Bezwzględne.
+
+---
+
+## Funkcje wbudowane (SUMA, ŚREDNIA)
+Funkcja to gotowe, zautomatyzowane słowo służące do szybkiego liczenia całych przedziałów.
+* `=SUMA(zakres)`: Dodaje zawartość setek lub tysięcy komórek na raz.
+* `=ŚREDNIA(zakres)`: Sumuje i dzieli na ilość elementów.
+* Oszczędzasz czas nie wpisując `=A1+A2+A3+A4...`
+
+---
+
+## Funkcje logiczne: JEŻELI
+Służą do uczenia programu "myślenia warunkowego".
+<div class="box">
+=JEŻELI(A1>100 ; "Gratulacje" ; "Pracuj dalej")
+</div>
+Zbudowane z: 1) Warunku, 2) Co się stanie gdy warunek to PRAWDA, 3) Co się stanie gdy FAŁSZ.
+
+---
+
+## Co oznaczają błędy w kratce?
+Czasami zamiast wyniku wyświetla się "krzak":
+* `#####`: Kolumna jest fizycznie za wąska, by pokazać długą liczbę.
+* `#DZIEL/0!`: Podzieliłeś coś przez komórkę, która jest pusta (zawiera zero). Matematyka na to nie pozwala.
+* `#ARG!`: Błąd argumentu. Najczęściej oznacza, że próbujesz pomnożyć cyfrę przez słowo tekstowe.
+
+---
+
+## Sortowanie i Filtrowanie
+Baza danych bez uporządkowania to po prostu śmietnik danych.
+* **Sortuj:** Od A do Z. Porządkuje listę i nazwiska w sposób szybki.
+* **Filtruj (Lejek):** Włącza ikonki strzałek na nagłówkach. Pozwala na wyświetlenie tylko tych wierszy, które mają konkretny status (np. "Opłacone"). Reszta zostaje bezpiecznie ukryta.
+
+---
+
+## Formatowanie Warunkowe
+Funkcja, która "żyje" razem z danymi. Zamiast ręcznie szukać błędów i nakładać im czerwone tło:
+* Ustaw regułę: `Jeśli wartość < 50, to pomaluj komórkę na czerwono z żółtym tekstem`.
+* Narzędzie to posiada również tryb "Pasków Danych" i Skal Kolorów, co rysuje świetne wykresy ciepła bez grama wysiłku!
+
+---
+
+## Wykresy (Wizualizacja)
+Na koniec pracy trzeba zaprezentować liczby zarządowi.
+* Menu Wstawianie.
+* Zaznacz tabelkę danych.
+* Użyj Wykresu Kołowego (by ukazać udział % czegoś w całości - np. "udział kosztów HR").
+* Użyj Wykresu Kolumnowego (by porównywać wartości obok siebie w czasie - np. "sprzedaż rok do roku").
+
+---
+
+<!-- SECTION 3: POWERPOINT -->
+# 3. PowerPoint
+Jak z szacunkiem i zjawiskowo prezentować wyniki swojej pracy.
+
+---
+
+## Złota Reguła (Nie czytaj ze slajdu!)
+Twoja prezentacja to tylko pomoc graficzna!
+<div class="box">
+Złota reguła 6x6: Maksymalnie 6 punktów na slajdzie, z maksymalnie 6 słowami na linijkę.
+</div>
+Większa ilość tekstu zamienia prezentację w referat. Ludzie w trakcie czytania przestają Cię słuchać.
+
+---
+
+## Układy i Motywy (Layout)
+Nie wstawiaj pól tekstowych ręcznie!
+* **Motyw:** Prezentacja powinna mieć stałe kolory i krój pisma na każdej stronie, co buduje profesjonalizm.
+* **Układ Slajdu:** Podczas dodawania slajdu z menu, wybieraj np. "Dwie zawartości" lub "Porównanie". Te z góry zaprojektowane boksy zapewnią idealne wyrównanie tekstów.
+
+---
+
+## Obraz mówi więcej niż słowo
+Usuń dwa punkty, które nie mają wielkiego znaczenia. Wstaw w ich miejsce świetną jakość zdjęcie z galerii. Mózg uwielbia skojarzenia wzrokowe i tak zapamięta Twoją wypowiedź znacznie lepiej.
+
+---
+
+## Przejścia
+To efekt zmiany pomiędzy CAŁYMI slajdami (np. Zanikanie, Roleta).
+<span class="highlight">Ostrzeżenie:</span>
+W profesjonalnym środowisku biurowym należy unikać jaskrawych animacji i przerysowanych przejść jak "Origami" czy "Wyłuskiwanie". Używaj eleganckiego efektu Zanikania (Fade).
+
+---
+
+## Animacje elementów
+Służą do odkrywania slajdu kawałek po kawałku.
+Zamiast pokazywać całą listę z 5 punktami naraz, co zachęci widownię do przeczytania jej "do przodu", nałóż Animację wejścia "Pojawianie się (Po kliknięciu)". 
+Będziesz odsłaniał listę w swoim tempie!
+
+---
+
+## Klawiszologia prezentera
+Najważniejsze skróty (Tryb Pokazu: F5):
+* Strzałki przód / tył to norma.
+* Wciśnij na klawiaturze klawisz **B** (Black). Ekran zgaśnie na czarno. Wszystkie oczy skupią się z powrotem na Tobie! (Wciśnij ponownie B by przywrócić slajd).
+* Numer 15, a potem Enter – szybki skok do 15 slajdu w locie.
+
+---
+
+## Widok Prezentera
+Podłączenie komputera do rzutnika uruchamia magię:
+Na dużym ekranie rzutnika ludzie widzą tylko Twój główny slajd. 
+Na ekranie Twojego laptopa pojawia się specjalny kokpit! Masz tam zegar odliczający czas, wielki przycisk i okienko z swoimi własnymi notatkami, których NIE widzi publika.
+
+---
+
+<!-- SECTION 4: CHMURA -->
+# 4. Praca w Chmurze i Współpraca
+Zakończ epokę przesyłania setek wersji mailami.
+
+---
+
+## Co to jest ta słynna "Chmura"?
+Nie martw się, dane nie lecą na zewnątrz atmosfery!
+Cloud Computing to po prostu "wynajem" czyjegoś komputera (serwera Google, Microsoft), który działa w potężnej klimatyzowanej serwerowni non stop. Ty po prostu wrzucasz na niego swoje pliki przez Internet.
+
+---
+
+## Dysk lokalny vs Dysk Sieciowy
+* **Lokalny (C:/, Pendrive):** Awaria płyty głównej, wylana kawa lub kradzież pendrive oznacza bezpowrotną utratę danych.
+* **Dysk Chmurowy (OneDrive, Google Drive, Dropbox):** Twój dysk żyje "w internecie". Nawet jak sprzęt spłonie, logujesz się na drugim końcu świata na swój login i odzyskujesz wszystkie pliki natychmiast!
+
+---
+
+## Aplikacje w Chmurze (Office Online)
+Dzisiejsze technologie poszły o krok dalej. Nawet nie musisz mieć zainstalowanego na komputerze pakietu MS Office.
+Wchodzisz np. przez przeglądarkę na konto Office365 lub Google Workspace i piszesz dokument, arkusz lub prezentację bezpośrednio przez internetową przeglądarkę WWW.
+
+---
+
+## Współpraca w Czasie Rzeczywistym
+Przełomowa technologia w zespołach!
+1. Wchodzicie na jeden link we trójkę naraz w jednym czasie.
+2. Na Twoim ekranie pojawiają się kolorowe kursory, podpisane imionami.
+3. Patrzysz jak Kasia pisze Paragraf nr 1, a obok Ty poprawiasz Paragraf nr 3. Magia współpracy!
+
+---
+
+## Prawa Dostępu (Udostępnianie)
+Udostępniając pliki przez systemy chmurowe (Udostępnij -> Skopiuj Link), masz możliwość włączenia odpowiednich uprawnień zabezpieczających:
+* Tryb do "Edycji" (Dla wspólników).
+* Tryb tylko do "Komentowania" (Dla kogoś, kto ma sprawdzić literówki).
+* Tryb "Wyświetl" (Tylko do odczytu, dla klientów pobierających cennik).
+
+---
+
+## Historia Wersji
+Chmura automatycznie zapisuje Twoją pracę w tle (tzw. Autozapis).
+Usunąłeś z tabeli kluczowe dane, wcisnąłeś przez pomyłkę zapisz i wpadłeś w panikę?
+Dzięki funkcji Historii Wersji możesz wejść w panel pliku i cofnąć swój arkusz Excela do dokładnego stanu, w jakim był o 14:26 we wtorek dwa tygodnie temu!
+
+---
+
+## Komunikatory i Narzędzia
+Pamiętajmy o całej nowoczesnej otoczce biura:
+* Aplikacje takie jak MS Teams lub Slack integrują bezpośrednio rozmowy, spotkania Video oraz wrzucone do nich pliki w jednym systemie.
+* Wyparły one częściowo klasyczne, długie i nudne łańcuchy E-mail w zespołach projektowych.
+
+---
+
+## Cyberbezpieczeństwo i Hasła
+Przenosząc się do Chmury musisz chronić wejście do niej:
+* Stosuj długie, złożone hasła (najlepiej oparte na zapamiętaniu całych zdań piosenek).
+* ZAWSZE włączaj MFA (Uwierzytelnianie dwuskładnikowe)! Gdy ktoś odgadnie Twoje hasło, usługa nie wpuści go, dopóki nie wpisze on jednorazowego kodu z Twojego telefonu (SMS lub Aplikacja).
+
+---
+
+# Czas na pytania i podsumowanie
+## Dziękuję za udział w prezentacji!
+                </textarea>
+            </section>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/markdown/markdown.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/highlight/highlight.js"></script>
+    
+    <!-- Three.js i Vanta.js (Efekt WebGL) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    
+    <script>
+        // Inicjalizacja tła WebGL
+        VANTA.NET({
+            el: "#webgl-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xffb86c,         // Dracula Orange
+            backgroundColor: 0x282a36, // Dracula Background
+            points: 12.00,
+            maxDistance: 24.00,
+            spacing: 20.00,
+            showDots: true
+        });
+
+        // Inicjalizacja Reveal.js
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'fade', 
+            backgroundTransition: 'fade',
+            plugins: [ RevealMarkdown, RevealHighlight ]
+        });
+    </script>
+</body>
+</html>

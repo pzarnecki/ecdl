@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szkolenie ECDL - Kompleksowy Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Portal Szkoleniowy ECDL</h1>
+    <p>Podstawy pracy z komputerem, Internet, Word i Excel (Offline)</p>
+</header>
+
+<div class="container">
+    <nav class="tabs">
+        <button class="tab-btn active" data-target="materiały">Materiały i Teoria</button>
+        <button class="tab-btn" data-target="praktyka">Zadania Praktyczne</button>
+        <button class="tab-btn" data-target="testy">Testy Interaktywne</button>
+    </nav>
+
+    <!-- SECTION: MATERIAŁY -->
+    <section id="materiały" class="section active">
+        <h2>Materiały Teoretyczne</h2>
+        <p style="margin-bottom: 20px;">Zapoznaj się z poniższymi materiałami przed przystąpieniem do testów i zadań.</p>
+        <ul class="item-list" id="materials-list">
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">B1</span> <span class="badge author">Materiały autorskie</span>
+                    <h3>Prezentacja: Podstawy komputera</h3>
+                    <p>Interaktywna prezentacja ze szkolenia wstępnego.</p>
+                </div>
+                <div class="item-action">
+                    <a href="materialy/prezentacja_b1.html" target="_blank" class="btn">Otwórz</a>
+                </div>
+            </li>
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">B1</span> <span class="badge external">Gotowiec / Oficjalne</span>
+                    <h3>Skrypt Teoretyczny (PDF)</h3>
+                    <p>Kompleksowa teoria ECDL - Podstawy komputera.</p>
+                </div>
+                <div class="item-action">
+                    <a href="materialy/b1_teoria.pdf" target="_blank" class="btn">Otwórz PDF</a>
+                </div>
+            </li>
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">B2</span> <span class="badge external">Gotowiec / Oficjalne</span>
+                    <h3>Skrypt Teoretyczny (PDF)</h3>
+                    <p>Kompleksowa teoria ECDL - Internet i Sieci.</p>
+                </div>
+                <div class="item-action">
+                    <a href="materialy/b2_teoria.pdf" target="_blank" class="btn">Otwórz PDF</a>
+                </div>
+            </li>
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">B3</span> <span class="badge external">Gotowiec / Oficjalne</span>
+                    <h3>Przetwarzanie tekstu - Teoria (Word)</h3>
+                    <p>Kompleksowa teoria z zakresu MS Word.</p>
+                </div>
+                <div class="item-action">
+                    <a href="materialy/teoria_do_b3.docx" target="_blank" download class="btn">Pobierz DOCX</a>
+                </div>
+            </li>
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">Poradnik</span> <span class="badge author">Materiały autorskie</span>
+                    <h3>Początkujący w Excelu</h3>
+                    <p>Wprowadzenie do arkuszy kalkulacyjnych z autorskim omówieniem.</p>
+                </div>
+                <div class="item-action">
+                    <a href="materialy/Poradnik_Poczatkujacy_Excel.docx" target="_blank" download class="btn">Pobierz DOCX</a>
+                </div>
+            </li>
+            <li class="item-card">
+                <div class="item-info">
+                    <span class="module-tag">Poradnik</span> <span class="badge author">Materiały autorskie</span>
+                    <h3>Początkujący w Wordzie</h3>
+                    <p>Wprowadzenie do edycji tekstów z autorskim omówieniem.</p>
+                </div>
+                <div class="item-action">
+                    <a href="materialy/Poradnik_Poczatkujacy_Word.docx" target="_blank" download class="btn">Pobierz DOCX</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- SECTION: PRAKTYKA -->
+    <section id="praktyka" class="section">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <div>
+                <h2>Zadania Praktyczne</h2>
+                <p style="margin-bottom: 20px;">Pobierz plik załącznika i wykonaj instrukcje z opisu.</p>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="filter-practical"><strong>Filtruj: </strong></label>
+                <select id="filter-practical" style="padding: 5px; border-radius: 4px;">
+                    <option value="all">Wszystkie źródła</option>
+                    <option value="author">Tylko materiały autorskie</option>
+                    <option value="external">Tylko gotowce (pliki ZIP)</option>
+                </select>
+                
+                <label for="filter-date" style="margin-left: 15px;"><strong>Data: </strong></label>
+                <select id="filter-date" style="padding: 5px; border-radius: 4px;">
+                    <option value="all">Wszystkie daty</option>
+                </select>
+            </div>
+        </div>
+        <ul class="item-list" id="practical-list">
+            <!-- Będzie wypełnione przez app.js -->
+        </ul>
+    </section>
+
+    <!-- SECTION: TESTY INTERAKTYWNE -->
+    <section id="testy" class="section">
+        <div class="quiz-setup" id="quiz-setup">
+            <h2>Sprawdź swoją wiedzę! <span class="badge author">Aplikacja Autorska</span></h2>
+            <p>Wybierz moduł oraz liczbę pytań, aby rozpocząć symulację egzaminu. Baza kilkudziesięciu pytań została wygenerowana specjalnie na potrzeby tego portalu.</p>
+            <br>
+            <select id="quiz-module">
+                <option value="ALL">Wszystkie moduły (B1-B4)</option>
+                <option value="B1">Moduł B1 (Podstawy komputera)</option>
+                <option value="B2">Moduł B2 (Sieci i Internet)</option>
+                <option value="B3">Moduł B3 (Przetwarzanie tekstu - Word)</option>
+                <option value="B4">Moduł B4 (Arkusze kalkulacyjne - Excel)</option>
+            </select>
+            <select id="quiz-count">
+                <option value="10">Krótki test (10 pytań)</option>
+                <option value="20">Standardowy (20 pytań)</option>
+                <option value="30">Egzamin (30 pytań)</option>
+                <option value="50">Maraton (50 pytań)</option>
+            </select>
+            <br><br>
+            <button class="btn-primary" id="btn-start-quiz">Rozpocznij Test</button>
+        </div>
+
+        <div class="quiz-container" id="quiz-container">
+            <div class="quiz-header">
+                <h3 id="quiz-progress-text">Pytanie 1 z 20</h3>
+                <span class="module-tag" id="quiz-current-module">B1</span>
+            </div>
+            
+            <div class="question-block">
+                <div class="question-title" id="question-text">Tutaj pojawi się treść pytania...</div>
+                <div class="options-list" id="options-list">
+                    <!-- Opcje generowane w JS -->
+                </div>
+            </div>
+
+            <div class="quiz-footer">
+                <button class="btn-primary" id="btn-next-question" disabled>Sprawdź i Przejdź dalej</button>
+            </div>
+        </div>
+
+        <div class="result-container" id="result-container">
+            <h2>Koniec Testu!</h2>
+            <div class="result-score" id="result-score-text">15 / 20 (75%)</div>
+            <div class="result-message" id="result-message">Zaliczony! Gratulacje.</div>
+            <button class="btn-primary" id="btn-restart-quiz">Wróć do wyboru testów</button>
+            
+            <div id="result-review-list" style="text-align: left; margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px;">
+                <!-- Tu wyrenderuje się podsumowanie odpowiedzi -->
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <h4>Autor i prowadzący szkolenie: Przemysław Żarnecki</h4>
+    <p>Projekt i logika portalu (w tym silnik quizowy oraz generowane bazy pytań i zadań) są autorskimi materiałami prowadzącego (oznaczone jako zielone plakietki).</p>
+    <p>Pliki próbne oraz skrypty z teorii (oznaczone na szaro) pochodzą ze standardowych gotowców przygotowujących do certyfikacji ECDL.</p>
+</footer>
+
+<!-- Ładowanie baz danych -->
+<script src="js/db_theory.js"></script>
+<script src="js/db_practical.js"></script>
+<!-- Logika Aplikacji -->
+<script src="js/app.js"></script>
+
+</body>
+</html>

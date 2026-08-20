@@ -1,0 +1,10 @@
+# Ignoruj pliki systemowe
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignoruj ewentualne pliki tymczasowe edytorów
+.vscode/
+.idea/
+*.swp
+*.log

@@ -1,0 +1,43 @@
+name: Deploy ECDL Portal to GitHub Pages
+
+on:
+  # Uruchamia deployment przy każdym pushu na gałąź "main" (lub "master", zmień w razie potrzeby)
+  push:
+    branches: ["main", "master"]
+  
+  # Pozwala również uruchomić workflow ręcznie z poziomu zakładki "Actions"
+  workflow_dispatch:
+
+# Konfiguracja uprawnień potrzebnych do wrzucenia strony na GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Konfiguracja współbieżności, by uniknąć problemów przy szybkich poprawkach
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repozytorium
+        uses: actions/checkout@v4
+      
+      - name: Konfiguracja GitHub Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Przygotowanie plików portalu (Upload)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Kropka oznacza, że wgrywamy całą zawartość repozytorium (nasz portal to czysty HTML/CSS/JS)
+          path: '.'
+          
+      - name: Publikacja na GitHub Pages (Deploy)
+        id: deployment
+        uses: actions/deploy-pages@v4

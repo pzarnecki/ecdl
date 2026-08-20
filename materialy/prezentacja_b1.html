@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Szkolenie ECDL - Podstawy komputera</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/theme/dracula.min.css" id="theme">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/highlight/monokai.min.css">
+    <style>
+        .reveal h1, .reveal h2, .reveal h3 { text-transform: none; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .reveal h1 { font-size: 2.5em; color: #ff79c6; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .reveal h2 { font-size: 1.8em; color: #8be9fd; margin-bottom: 30px; }
+        .reveal h3 { font-size: 1.4em; color: #50fa7b; }
+        .reveal p, .reveal li { font-size: 1.0em; line-height: 1.5; color: #f8f8f2; }
+        .highlight { color: #f1fa8c; font-weight: bold; }
+        .box { background: rgba(68, 71, 90, 0.5); padding: 20px; border-radius: 10px; border-left: 5px solid #ff79c6; margin-bottom: 20px; text-align: left; }
+        .reveal ul { margin-bottom: 20px; display: inline-block; text-align: left; }
+        .reveal ul li { margin-bottom: 10px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 30px; }
+        .grid div { background: rgba(255, 255, 255, 0.05); padding: 25px; border-radius: 15px; }
+        .reveal .slides section .fragment.highlight-current-blue.current-fragment { color: #8be9fd; }
+        
+        /* WebGL Background overrides */
+        body, .reveal-viewport, .reveal {
+            background-color: transparent !important;
+            background: transparent !important;
+        }
+        
+        /* Glassmorphism box for slides to improve readability */
+        .reveal .slides section {
+            background: rgba(40, 42, 54, 0.75) !important; /* Semi-transparent Dracula dark background */
+            padding: 40px !important;
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        #webgl-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Kontener na tło WebGL -->
+    <div id="webgl-bg"></div>
+    
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown>
+                <textarea data-template>
+# Szkolenie ECDL
+## Moduł B1: Podstawy pracy z komputerem
+---
+
+## Czym jest ECDL / ICDL?
+* **ECDL** (European Computer Driving Licence) / **ICDL** (International Certification of Digital Literacy)
+* Międzynarodowy standard umiejętności cyfrowych.
+* Potwierdza kompetencje w obsłudze komputerów i programów.
+* Zwiększa szanse na rynku pracy i ułatwia codzienną pracę.
+
+---
+
+## Moduł B1: Podstawy komputera
+Zakres wiedzy i umiejętności niezbędnych do:
+* Rozumienia czym jest komputer i TIK.
+* Obsługi systemu operacyjnego (np. Windows).
+* Zarządzania plikami i folderami.
+* Pracy w sieci i dbania o bezpieczeństwo.
+
+---
+
+## Czego się dziś nauczymy?
+1. Komputery i urządzenia (Sprzęt i oprogramowanie)
+2. Pulpit, ikony i ustawienia
+3. Efekty pracy (Aplikacje i drukowanie)
+4. Zarządzanie plikami
+5. Sieci komputerowe
+6. Bezpieczeństwo i dobrostan (Green IT)
+
+---
+
+<!-- SECTION 1 -->
+# 1. Komputery i urządzenia
+Sprzęt, oprogramowanie i technologie informacyjne.
+
+---
+
+## Czym jest TIK (ICT)?
+<div class="box">
+<b>TIK</b> – Technologie Informacyjno-Komunikacyjne (ang. <i>Information and Communication Technology</i>).
+</div>
+Obejmuje wszystkie technologie ułatwiające przetwarzanie, gromadzenie i przesyłanie informacji: komputery, internet, telefonię komórkową i systemy łączności.
+
+---
+
+## Przykłady usług TIK
+* **e-commerce:** Zakupy w internecie (Allegro, Amazon, sklepy online).
+* **e-banking:** Bankowość elektroniczna (konta online, przelewy).
+* **e-government:** Usługi administracji państwowej (ePUAP, mObywatel, e-Deklaracje).
+* **e-learning:** Nauka na odległość (kursy online, Teams, Zoom).
+
+---
+
+## Sprzęt vs Oprogramowanie
+<div class="grid">
+<div>
+<h3>Sprzęt (Hardware)</h3>
+Fizyczne elementy komputera, które można dotknąć.
+<br><br>
+<i>Przykłady: Monitor, klawiatura, płyta główna, dysk twardy, procesor.</i>
+</div>
+<div>
+<h3>Oprogramowanie (Software)</h3>
+Programy, instrukcje i aplikacje sterujące sprzętem.
+<br><br>
+<i>Przykłady: Windows, macOS, MS Word, przeglądarka internetowa.</i>
+</div>
+</div>
+
+---
+
+## Typy komputerów
+* **Komputery stacjonarne (Desktop):** Głównie do pracy biurowej, składają się z jednostki centralnej i osobnego monitora. Wymagają stałego zasilania.
+* **Laptopy (Notebooki):** Przenośne, z wbudowaną baterią, klawiaturą, touchpadem i ekranem. Zapewniają dużą mobilność.
+
+---
+
+## Urządzenia mobilne
+* **Tablety:** Ekrany dotykowe, idealne do konsumpcji treści (czytanie, oglądanie filmów) i lekkiej pracy czy rysowania.
+* **Smartfony:** Zaawansowane telefony komórkowe z funkcjami komputera. Pozwalają na instalację tysięcy aplikacji, przeglądanie sieci i robienie zdjęć.
+
+---
+
+## Główne części komputera (Wnętrze)
+* **Procesor (CPU):** Mózg komputera, wykonuje wszystkie obliczenia.
+* **Pamięć RAM:** Pamięć operacyjna, przechowuje dane <span class="highlight">aktualnie uruchomionych</span> programów. Znika po wyłączeniu zasilania!
+* **Dysk (HDD / SSD):** Pamięć stała, tu zapisane są Twoje pliki, zdjęcia i system operacyjny. Dyski SSD są znacznie szybsze niż starsze HDD.
+
+---
+
+## Urządzenia wejścia (Input)
+Służą do wprowadzania danych do komputera z zewnątrz:
+* Klawiatura (tekst i skróty)
+* Mysz / Touchpad (sterowanie kursorem)
+* Mikrofon (dźwięk, komendy głosowe)
+* Skaner (digitalizacja dokumentów)
+* Kamera internetowa (Webcam - obraz wideo)
+
+---
+
+## Urządzenia wyjścia (Output)
+Służą do prezentacji wyników pracy komputera użytkownikowi:
+* Monitor / Ekran (obraz)
+* Drukarka (wydruki na papierze)
+* Głośniki (dźwięk dla wielu osób)
+* Słuchawki (dźwięk prywatny)
+* Projektor multimedialny (obraz na dużej ścianie/ekranie)
+
+---
+
+## Urządzenia wejścia-wyjścia
+Łączą obie funkcje, pozwalając na wprowadzanie i odbieranie danych:
+* **Ekran dotykowy (Touchscreen):** Wyświetla obraz (wyjście) i rejestruje dotyk palca (wejście).
+* **Pendrive / Dysk zewnętrzny:** Zapisuje dane z komputera (wyjście) i odczytuje dane do komputera (wejście).
+
+---
+
+## Złącza i porty - Jak to podłączyć?
+* **USB:** Najpopularniejszy port (myszki, pendrive'y, drukarki). Obecnie powszechny staje się mniejszy i obustronny standard **USB-C**.
+* **HDMI / DisplayPort:** Do przesyłania obrazu i dźwięku wysokiej jakości (np. do monitora lub telewizora).
+* **Jack 3.5mm (Mini-jack):** Klasyczny, okrągły port audio (słuchawki, głośniki, mikrofon).
+* **Ethernet (RJ-45):** Port na kabel sieciowy (Internet "po kablu").
+
+---
+
+<!-- SECTION 2 -->
+# 2. Pulpit, ikony i ustawienia
+Rozpoczęcie pracy z systemem operacyjnym.
+
+---
+
+## System operacyjny (OS)
+<div class="box">
+Najważniejszy program w każdym urządzeniu!
+</div>
+* Zarządza pracą procesora, pamięci i dysków.
+* Umożliwia użytkownikowi łatwą komunikację z maszyną i uruchamianie innych programów.
+* **Przykłady (Komputery):** Windows, macOS, Linux.
+* **Przykłady (Urządzenia mobilne):** Android, iOS.
+
+---
+
+## Logowanie i Konta Użytkowników
+* **Konto użytkownika:** Oddzielna przestrzeń dla każdej osoby korzystającej z komputera (własny pulpit, tapeta, pliki, dokumenty).
+* **Logowanie:** Wpisanie hasła/PIN-u, aby uzyskać bezpieczny dostęp do swojego konta i odblokować system.
+* **Wylogowywanie:** Bezpieczne zakończenie sesji, chroniące nasze pliki przed innymi osobami, ale bez wyłączania prądu w komputerze.
+
+---
+
+## Zamykanie komputera
+<span class="highlight">Nigdy nie odłączaj pracującego komputera od prądu (tzw. "wyciągnięcie wtyczki")!</span>
+* **Zamknij (Shut down):** Bezpiecznie zamyka system operacyjny i całkowicie wyłącza zasilanie sprzętu.
+* **Uruchom ponownie (Restart):** Wyłącza komputer i od razu włącza go ponownie (często wymagane po aktualizacjach).
+* **Uśpij (Sleep):** Przechodzi w tryb bardzo niskiego poboru energii (np. zamknięcie klapy laptopa). Wybudza się w kilka sekund.
+
+---
+
+## Interfejs graficzny (GUI)
+* **GUI (Graphical User Interface)** – czyli Graficzny Interfejs Użytkownika.
+* Pozwala na obsługę komputera za pomocą kolorowych obrazków, okienek i myszki.
+* Dawniej używano wyłącznie interfejsu tekstowego (tzw. wiersz poleceń), gdzie trzeba było wpisywać trudne komendy z klawiatury. GUI zrewolucjonizowało informatykę!
+
+---
+
+## Pulpit i Pasek zadań
+* **Pulpit (Desktop):** Główny, duży obszar roboczy widoczny zaraz po zalogowaniu. Możesz tu trzymać podręczne pliki.
+* **Pasek zadań (Taskbar):** Zwykle długi pasek na dole ekranu. Zawiera przycisk Start, ikony uruchomionych właśnie programów oraz *Zasobnik systemowy* (zegar, ikona głośności, Wi-Fi).
+
+---
+
+## Ikony i Skróty - Jak je odróżnić?
+<div class="grid">
+<div>
+<h3>Ikona Pliku/Programu</h3>
+Symbolizuje faktyczny plik na dysku. Usunięcie ikony dokumentu usuwa ten dokument na zawsze!
+</div>
+<div>
+<h3>Skrót (Shortcut)</h3>
+Odnośnik do pliku leżącego głęboko na dysku. <br><br>
+<span class="highlight">Charakteryzuje się małą strzałką w lewym dolnym rogu.</span> Usunięcie skrótu NIE usuwa oryginalnego programu!
+</div>
+</div>
+
+---
+
+## Okna – Nawigacja i Kontrola
+Większość programów otwiera się w prostokątnych „oknach” (stąd nazwa systemu Windows). Prawy górny róg okna zawiera trzy ważne przyciski:
+1. **Minimalizuj (Kreska):** Chowa okno z ekranu i umieszcza je jako przycisk na pasku zadań (program nadal działa).
+2. **Maksymalizuj / Przywróć (Kwadrat):** Rozszerza okno na cały ekran lub przywraca jego mniejszy, swobodny rozmiar.
+3. **Zamknij (X):** Całkowicie wyłącza program.
+
+---
+
+## Ustawienia systemowe
+Dostępne przez `Menu Start -> Ustawienia` (ikona zębatki) lub dawniej przez Panel Sterowania.
+Możesz tu zmienić i dostosować swój komputer:
+* Tapetę pulpitu i kolory okien.
+* Rozdzielczość ekranu (czytelność liter).
+* Ustawienia myszy (np. dla leworęcznych).
+* Dźwięki powiadomień.
+* Konta i hasła użytkowników.
+
+---
+
+## Zmiana języka i klawiatury
+* Język klawiatury wpływa na układ wprowadzanych znaków. Np. w niemieckim układzie zamienione są klawisze Z i Y.
+* W Polsce używamy układu **Polski (Programisty)**, który pozwala na pisanie "polskich ogonków" (ą, ę, ł) używając prawego klawisza `Alt`.
+* Zmiana najczęściej odbywa się poprzez kliknięcie skrótu językowego (np. "POL") po prawej stronie paska zadań.
+
+---
+
+## Instalacja i usuwanie aplikacji
+* **Instalacja:** Proces wgrywania, rozpakowywania i konfigurowania nowego programu na dysku komputera. Odbywa się przez pobranie instalatora (plik `.exe`) lub pobranie ze Sklepu z aplikacjami.
+* **Odinstalowywanie:** Używaj ZAWSZE menu `Ustawienia -> Aplikacje`! Zwykłe usunięcie skrótu do kosza NIE kasuje programu z dysku i zostawia dużo informatycznych "śmieci".
+
+---
+
+<!-- SECTION 3 -->
+# 3. Efekty pracy – Aplikacje
+Programy użytkowe i drukowanie dokumentów.
+
+---
+
+## Popularne aplikacje biurowe
+Większość pracy biurowej wykonujemy za pomocą określonych klas programów:
+* **Edytory tekstu:** Pisanie pism, CV, książek (Microsoft Word, LibreOffice Writer).
+* **Arkusze kalkulacyjne:** Obliczenia, zestawienia finansowe, tabele i wykresy (Excel, Calc).
+* **Programy do prezentacji:** Tworzenie pokazów slajdów, takich jak ten (PowerPoint, Impress).
+* **Przeglądarki internetowe:** Chrome, Firefox, Edge, Safari.
+
+---
+
+## Tworzenie i zapisywanie dokumentu
+<div class="box">
+Niezapisany dokument podczas tworzenia istnieje tylko w tymczasowej pamięci RAM. W razie nagłego braku prądu – wszystko zniknie!
+</div>
+* Często używaj opcji **Zapisz** (skrót klawiszowy: `Ctrl+S`).
+* Opcja **Zapisz jako...** służy do stworzenia nowej kopii dokumentu, zmiany jego nazwy, miejsca zapisu, lub formatu pliku (np. z formatu Worda `.docx` na nieedytowalny format `.pdf`).
+
+---
+
+## Zamykanie dokumentów
+* Upewnij się, że wszystkie zmiany zostały zapisane przed kliknięciem czerwonego krzyżyka okna.
+* Jeśli nie zapisałeś, program najczęściej Cię ostrzeże wyświetlając okienko z pytaniem: "Czy zapisać zmiany przed zamknięciem?". Czytaj komunikaty ze zrozumieniem!
+
+---
+
+## Opcje drukowania (Skrót: Ctrl+P)
+Przed finalnym kliknięciem przycisku "Drukuj" możesz dostosować wydruk:
+* **Liczba kopii:** Ile egzemplarzy dokumentu chcesz uzyskać.
+* **Zakres stron:** Np. drukuj wszystko, tylko bieżącą stronę, lub konkretne numery (np. strony 1, 3, 5-7).
+* **Druk dwustronny (Duplex):** Jeśli drukarka na to pozwala, oszczędza papier drukując na obu stronach kartki.
+* **Orientacja papieru:** Pionowa (Portrait) lub Pozioma (Landscape).
+
+---
+
+## Drukarka domyślna i kolejka
+* **Drukarka domyślna:** Ta drukarka, która jest zawsze proponowana i wybierana automatycznie przez system do wydruków.
+* **Kolejka wydruku:** Niewidoczna lista dokumentów czekających na wydrukowanie. Jeśli np. zabraknie papieru, zadania czekają w kolejce. W ustawieniach drukarki można anulować błędnie zlecony zator wydruków!
+
+---
+
+<!-- SECTION 4 -->
+# 4. Zarządzanie plikami
+Organizacja pracy, porządek na dysku i kompresja.
+
+---
+
+## Pojęcie pliku i folderu
+* **Plik (File):** Pojedynczy "dokument" przechowujący konkretne dane (np. napisany tekst, zrobione zdjęcie, nagraną muzykę). Każdy plik ma swoją własną, unikalną w danym miejscu nazwę.
+* **Folder (Katalog / Directory):** Wirtualna "teczka" służąca do grupowania i chowania w sobie plików oraz kolejnych folderów (tzw. podfolderów). Zapobiega bałaganowi na pulpicie.
+
+---
+
+## Struktura plików i Dyski
+Dane w komputerze są zorganizowane hierarchicznie (jak drzewo z gałęziami).
+* Głównym "pniem" jest fizyczny dysk twardy, oznaczany w systemie Windows wielką literą z dwukropkiem (najważniejszy to tzw. dysk systemowy, zazwyczaj **C:**).
+* Każdy inny nośnik podłączony do systemu (pendrive, karta SD, napęd DVD) otrzymuje automatycznie kolejną wolną literę (np. **D:**, **E:**).
+
+---
+
+## Rozszerzenia plików – Po co są?
+Rozszerzenie to kropka i zazwyczaj 3 lub 4 litery po nazwie pliku. Informuje system o tym, co jest w środku i jakiego programu użyć do otwarcia.
+* **Tekst:** `.txt`, `.docx` (Word), `.pdf` (Dokument zablokowany przed edycją)
+* **Obrazy (grafika):** `.jpg`, `.png`, `.gif`
+* **Muzyka/Dźwięk:** `.mp3`, `.wav`
+* **Wideo/Filmy:** `.mp4`, `.avi`
+* **Pliki spakowane (Archiwa):** `.zip`, `.rar`
+
+---
+
+## Zmiana nazwy (Skrót: F2)
+* Zarówno plik jak i folder można łatwo przemianować.
+* Kliknij plik Prawym Przyciskiem Myszy (PPM) i wybierz "Zmień nazwę", lub zaznacz go i wciśnij klawisz `F2`.
+* <span class="highlight">Ostrzeżenie:</span> Jeśli podczas zmiany nazwy usuniesz lub zmienisz też rozszerzenie pliku (po kropce), plik może zgubić swoją ikonę i przestać się otwierać w programach!
+
+---
+
+## Zaznaczanie wielu plików
+Sztuczki na wybieranie wielu plików naraz:
+* **Z klawiszem Ctrl (Kliknięcie):** Pozwala na wybieranie i odznaczanie pojedynczych, wybranych, "porozrzucanych" plików.
+* **Z klawiszem Shift (Kliknięcie):** Zaznacza całą ciągłą grupę (listę) plików – od pierwszego klikniętego do drugiego klikniętego.
+* **Skrót Ctrl + A:** (od słowa *All*). Natychmiast zaznacza wszystko, co znajduje się w aktualnie otwartym folderze.
+
+---
+
+## Kopiowanie, Wycinanie i Wklejanie
+<div class="grid">
+<div>
+<h3>Kopiuj (Skrót: Ctrl + C)</h3>
+Tworzy duplikat pliku. Twój oryginał zostaje bezpiecznie na swoim dawnym miejscu.
+</div>
+<div>
+<h3>Wytnij (Skrót: Ctrl + X)</h3>
+Przenosi plik. Twój oryginał za chwilę zniknie z poprzedniego miejsca i pojawi się tylko w nowym.
+</div>
+</div>
+Po "Skopiowaniu" lub "Wycięciu" przechodzimy do nowego folderu i zawsze używamy **Wklej (Skrót: Ctrl + V)**. Skopiowane obiekty czekają w tymczasowej pamięci zwanej **Schowkiem**.
+
+---
+
+## Kosz – Usuwanie plików
+* Usuwanie pliku (klawisz `Delete` lub kliknięcie PPM -> Usuń) przenosi go najpierw do specjalnego folderu systemowego: do Kosza.
+* Pliki znajdujące się w Koszu nadal **zajmują miejsce** na Twoim dysku twardym!
+* W razie pomyłki można je stamtąd **Przywrócić** do pierwotnej lokalizacji.
+* Aby odzyskać miejsce, kliknij prawym na ikonę i użyj "Opróżnij kosz".
+* Skrót `Shift + Delete` usuwa pliki natychmiast i bezpowrotnie, z pominięciem Kosza.
+
+---
+
+## Wyszukiwanie plików w komputerze
+* Jeśli zgubiłeś plik na dysku, nie panikuj. Użyj paska wyszukiwania w prawym górnym rogu okna *Eksploratora Plików*.
+* Możesz szukać po części nazwy pliku.
+* Możesz szukać po rozszerzeniu, wpisując np. `*.docx` (gwiazdka oznacza "dowolna nazwa"), aby komputer znalazł Ci absolutnie wszystkie pliki z programu MS Word, jakie masz na dysku.
+
+---
+
+## Kompresja danych (Format .ZIP)
+Dlaczego tworzymy i używamy plików zarchiwizowanej, skompresowanej "paczki"?
+1. Kompresja matematycznie "ściska" dane – plik zajmuje dużo mniej miejsca na dysku.
+2. Zamiast wysyłać w mailu 50 luźnych zdjęć (z czego wiele serwerów pocztowych tego zabroni), "pakujesz" je w jeden pojedynczy plik z końcówką `.zip` i wysyłasz wygodnie jako jeden załącznik.
+* <span class="highlight">Ważne:</span> Aby modyfikować zawartość "paczki", należy najpierw wykonać operację **Wypakuj wszystko (Ekstrakcja)**.
+
+---
+
+<!-- SECTION 5 -->
+# 5. Sieci komputerowe
+Podstawy komunikacji, globalny zasięg i transmisja.
+
+---
+
+## Rodzaje sieci komputerowych (Zasięg)
+* **LAN (Local Area Network):** Sieć lokalna obejmująca mały obszar, np. w jednym biurze, szkole lub w Twoim domu. Urządzenia są bardzo blisko siebie i łączą się przez kable lub router domowy.
+* **WLAN (Wireless LAN):** To samo co LAN, tylko bezprzewodowa (czyli popularne sieci Wi-Fi).
+* **WAN (Wide Area Network):** Sieć rozległa, np. ogólnoświatowy Internet, obejmująca duże obszary geograficzne, łącząca sieci LAN ze wszystkich krajów świata.
+
+---
+
+## Internet a Intranet – Subtelna różnica
+* **Internet:** Globalna, publiczna i otwarta sieć komputerowa. Każdy z dostępem może oglądać znajdujące się tam publiczne strony WWW.
+* **Intranet:** Wewnętrzna, zamknięta i całkowicie prywatna sieć jednej konkretnej firmy lub korporacji. Wygląda i działa z przeglądarki zupełnie jak zwykłe strony internetowe, ale mogą z niej korzystać (i czytać biuletyny firmowe) tylko autoryzowani pracownicy po zalogowaniu.
+
+---
+
+## Pobieranie (Download) i Wysyłanie (Upload)
+Przesył danych w sieci mierzymy w jednostkach prędkości, najczęściej w Megabitach na sekundę (Mb/s lub Mbps).
+* **Download (Pobieranie):** Proces "ściągania", czyli kopiowania danych z dalekiego serwera internetowego na Twój domowy komputer (np. oglądanie na żywo filmu, zapisanie pliku, przeglądanie dużej strony WWW).
+* **Upload (Wysyłanie):** Proces przesyłania Twoich danych z domowego komputera w "górę" na serwer internetowy (np. dodanie filmu z wakacji na YouTube, załączenie zdjęcia do posta).
+
+---
+
+## Podłączanie do sieci Wi-Fi
+* Do działania bezprzewodowej sieci niezbędne jest specjalne urządzenie zwane Punktem Dostępowym (najczęściej domowy Router bezprzewodowy).
+* Ze względów bezpieczeństwa wszystkie prywatne sieci zabezpieczone są silnym szyfrowaniem i hasłem (standardy WPA2 / WPA3).
+* <span class="highlight">Przestroga:</span> Otwarte (darmowe, pozbawione hasła) publiczne sieci Wi-Fi w kawiarniach, centrach handlowych czy hotelach są **niebezpieczne**! Bardzo łatwo o podsłuch danych – unikaj logowania się tam do własnego banku czy ważnej poczty służbowej!
+
+---
+
+<!-- SECTION 6 -->
+# 6. Bezpieczeństwo i dobrostan
+Ochrona danych, zasady bezpiecznej pracy i ergonomia.
+
+---
+
+## Złośliwe oprogramowanie (Malware)
+Ogólna nazwa dla wszystkich rodzajów niebezpiecznych programów. Przykłady:
+* **Wirusy:** Programy, które infekują inne zdrowe pliki systemowe i same ukradkiem się powielają, niszcząc spójność systemu.
+* **Trojany (Konie trojańskie):** Udają niezwykle pożyteczne programy lub darmowe gry (aby skłonić Cię do ich instalacji!), a w tle po cichu kradną wrażliwe dane.
+* **Spyware:** Oprogramowanie czysto szpiegowskie, podsłuchuje np. jakie klawisze wciskasz (hasła) i co oglądasz.
+
+---
+
+## Najgroźniejsze – Ransomware
+<div class="box">
+Oprogramowanie wymuszające okup (ang. <i>ransom</i> = okup).
+</div>
+Obecnie najczęstsza plaga w biurach. Po dostaniu się do komputera ofiary (najczęściej z fałszywego załącznika e-mail), program szyfruje na amen wszystkie pliki tekstowe, firmowe arkusze i zdjęcia. Wyświetla planszę z żądaniem zapłacenia dużej sumy w kryptowalutach w zamian za podanie klucza rozszyfrującego, grożąc całkowitą utratą danych.
+
+---
+
+## Ochrona Antywirusowa
+* **Program antywirusowy:** Niezbędne oprogramowanie, które analizuje pamięć w poszukiwaniu zagrożeń, chroni przed wirusami, blokuje podejrzany ruch w sieci i skanuje pliki tuż przed ich otwarciem. Obecnie Windows 10 i 11 posiada wbudowany, bardzo dobry i darmowy program *Windows Defender*.
+* **Aktualizacje Oprogramowania:** Nawet najlepszy antywirus nie pomoże na luki w oprogramowaniu. Należy stale i regularnie aktualizować system operacyjny i przeglądarki, aby producenci mogli na bieżąco "łatać" dziury bezpieczeństwa.
+
+---
+
+## Kopia Zapasowa (Backup)
+<div class="box">
+Każdy sprzęt mechaniczny i elektroniczny w końcu się zepsuje, zazwyczaj w najmniej odpowiednim i niespodziewanym momencie.
+</div>
+* Złota zasada bezpieczeństwa mówi: należy regularnie tworzyć kopie najważniejszych dla nas plików. Jeśli dane istnieją tylko w 1 miejscu na świecie – to proszenie się o kłopoty.
+* **Gdzie trzymać backup?** Na odłączanych fizycznych dyskach zewnętrznych, pojemnych pendrive'ach lub w tzw. Chmurze internetowej (OneDrive, Google Drive).
+
+---
+
+## Hasła i Bezpieczeństwo danych
+* **Dobre i silne hasło** to takie, które ma długość minimum 8 (lepiej kilkanaście) znaków i używa urozmaiceń: zawiera duże i małe litery, przynajmniej jedną cyfrę oraz specyficzne znaki specjalne (np. !, @, #, $, %).
+* Nigdy nie podawaj nikomu swoich haseł prywatnych, nie zapisuj ich na samoprzylepnych żółtych karteczkach przyklejonych z boku na monitor biurowy.
+* Wyrób w sobie nawyk: blokuj ekran swojego komputera w pracy (skrót: Klawisz z logo `Windows + L`), za każdym razem gdy odchodzisz od biurka (nawet tylko zrobić sobie herbatę).
+
+---
+
+## Ergonomia i higiena pracy przed ekranem
+Długotrwała praca siedząca przed komputerem bardzo męczy ludzki organizm i psuje wzrok.
+* Monitor powinien być oddalony o około 50-70 cm od oczu (zwykle na wyciągnięcie ręki) i umieszczony tak, by jego górna krawędź była lekko poniżej linii wzroku.
+* Prawidłowa postawa ciała: krzesło o stabilnym oparciu, podparcie lędźwiowe, stopy oparte o podłogę.
+* Oświetlenie biurka nie może oślepiać (świecić w twarz), ani odbijać się rażącymi refleksami w samym ekranie.
+* Rób systematyczne przerwy! (Reguła BHP: minimum 5 minut przerwy na 1 pełną godzinę pracy – oderwij wtedy wzrok w dal za okno).
+
+---
+
+## Green IT (Zielona Informatyka)
+Dbanie o zasoby środowiska naturalnego podczas korzystania z TIK:
+* Korzystaj i ustawiaj opcje sprzętowego oszczędzania energii w systemie (krótki czas do wygaszania ekranu przy braku użycia komputera, automatyczne usypianie maszyny).
+* Oszczędzaj papier i lasy: Drukuj absolutnie tylko to, co musisz mieć w formie papierowej. Jeśli już musisz drukować obszerny wielostronicowy dokument – zawsze ustawiaj opcję druku dwustronnego.
+* Nie wyrzucaj! Oddawaj zużyty, połamany sprzęt komputerowy oraz puste pojemniki z tonerami i kartridże z tuszami z drukarek wyłącznie do specjalistycznych punktów recyklingu (tzw. elektrośmieci).
+
+---
+
+# Dziękuję za uwagę!
+## Czas na podsumowanie i pytania.
+                </textarea>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/markdown/markdown.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/highlight/highlight.js"></script>
+    
+    <!-- Three.js i Vanta.js (Efekt WebGL) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    
+    <script>
+        // Inicjalizacja tła WebGL
+        VANTA.NET({
+            el: "#webgl-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x8be9fd,         // Kolor linii nawiązujący do nagłówków (Dracula cyan)
+            backgroundColor: 0x282a36, // Kolor tła (Dracula background)
+            points: 15.00,
+            maxDistance: 22.00,
+            spacing: 18.00,
+            showDots: true
+        });
+
+        // Inicjalizacja Reveal.js
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide', 
+            backgroundTransition: 'fade',
+            plugins: [ RevealMarkdown, RevealHighlight ]
+        });
+    </script>
+</body>
+</html>

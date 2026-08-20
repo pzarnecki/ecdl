@@ -1144,12 +1144,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=1, A2=21, A3=17, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
+      "28",
       "39",
-      "39",
-      "21",
-      "34"
+      "33",
+      "54"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 97,
@@ -1180,10 +1180,10 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=28, A2=9, A3=15, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "1",
+      "7",
       "4",
       "3",
-      "3"
+      "-5"
     ],
     "answer": 2
   },
@@ -1216,10 +1216,10 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=16, A2=27, A3=30, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
-      "68",
-      "432",
+      "64",
+      "90",
       "73",
-      "73"
+      "62"
     ],
     "answer": 2
   },
@@ -1240,108 +1240,108 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=24, A2=15, A3=22, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "1",
       "3",
-      "4",
-      "3"
+      "23",
+      "-5",
+      "-13"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 105,
     "module": "B4",
     "question": "Jeżeli komórki A1=13, A2=13, A3=18, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "-10",
+      "7",
       "3",
-      "3",
-      "1",
-      "4"
+      "-2"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 106,
     "module": "B4",
     "question": "Jeżeli komórki A1=17, A2=19, A3=14, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
+      "52",
       "50",
-      "60",
-      "323",
-      "50"
+      "43",
+      "31"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 107,
     "module": "B4",
     "question": "Jeżeli komórki A1=19, A2=18, A3=28, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
-      "21.67",
-      "31.67",
-      "21.67",
-      "65"
+      "21.67 (falsz 48)",
+      "21.67 (falsz 11)",
+      "21.67 (falsz 30)",
+      "21.67"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 108,
     "module": "B4",
     "question": "Jeżeli komórki A1=28, A2=23, A3=4, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "4",
-      "28",
+      "-8",
+      "11",
       "14",
       "4"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 109,
     "module": "B4",
     "question": "Jeżeli komórki A1=22, A2=30, A3=12, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "16",
       "3",
       "1",
-      "4",
-      "3"
+      "-9"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 110,
     "module": "B4",
     "question": "Jeżeli komórki A1=12, A2=1, A3=15, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "-14",
       "3",
-      "3",
-      "4",
-      "1"
+      "-5",
+      "20"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 111,
     "module": "B4",
     "question": "Jeżeli komórki A1=29, A2=14, A3=7, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "5",
-      "17",
+      "13",
       "7",
-      "7"
+      "9",
+      "26"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 112,
     "module": "B4",
     "question": "Jeżeli komórki A1=12, A2=2, A3=16, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
-      "3",
-      "1",
+      "-2",
+      "12",
+      "16",
       "3"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 113,
@@ -1360,12 +1360,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=28, A2=9, A3=29, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "7",
       "9",
-      "9",
-      "11"
+      "5",
+      "4",
+      "6"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 115,
@@ -1385,9 +1385,9 @@ const db_theory = [
     "question": "Jeżeli komórki A1=9, A2=29, A3=20, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
       "9",
-      "9",
       "7",
-      "11"
+      "-8",
+      "-3"
     ],
     "answer": 0
   },
@@ -1396,24 +1396,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=12, A2=17, A3=20, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "8",
       "3",
-      "4",
-      "1",
-      "3"
+      "-13",
+      "-7"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 118,
     "module": "B4",
     "question": "Jeżeli komórki A1=26, A2=23, A3=26, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "3",
       "1",
-      "4",
+      "9",
+      "-12",
       "3"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 119,
@@ -1444,36 +1444,36 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=1, A2=9, A3=20, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
-      "3",
-      "1",
+      "-14",
+      "-2",
+      "2",
       "3"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 122,
     "module": "B4",
     "question": "Jeżeli komórki A1=6, A2=26, A3=7, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
+      "13.0 (falsz 27)",
       "13.0",
-      "13.0",
-      "39",
-      "23.0"
+      "13.0 (falsz 74)",
+      "13.0 (falsz 4)"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 123,
     "module": "B4",
     "question": "Jeżeli komórki A1=29, A2=13, A3=21, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "13",
-      "11",
-      "29",
+      "-5",
+      "0",
+      "22",
       "13"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 124,
@@ -1493,9 +1493,9 @@ const db_theory = [
     "question": "Jeżeli komórki A1=13, A2=11, A3=29, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
       "3",
-      "4",
-      "1",
-      "3"
+      "-6",
+      "-1",
+      "-13"
     ],
     "answer": 0
   },
@@ -1516,60 +1516,60 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=8, A2=13, A3=12, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "13",
-      "6",
       "8",
-      "8"
+      "-4",
+      "-1",
+      "15"
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "id": 128,
     "module": "B4",
     "question": "Jeżeli komórki A1=28, A2=14, A3=10, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "-16",
       "3",
-      "3",
-      "1",
-      "4"
+      "22",
+      "15"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 129,
     "module": "B4",
     "question": "Jeżeli komórki A1=19, A2=20, A3=16, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
-      "3",
-      "3",
-      "1"
+      "22",
+      "-1",
+      "-10",
+      "3"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 130,
     "module": "B4",
     "question": "Jeżeli komórki A1=25, A2=10, A3=25, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "3",
+      "20",
       "1",
-      "3",
-      "4"
+      "12",
+      "3"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 131,
     "module": "B4",
     "question": "Jeżeli komórki A1=16, A2=4, A3=6, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "4",
-      "4",
       "14",
-      "6"
+      "4",
+      "-10",
+      "-14"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 132,
@@ -1577,9 +1577,9 @@ const db_theory = [
     "question": "Jeżeli komórki A1=10, A2=29, A3=17, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
       "56",
-      "66",
-      "56",
-      "61"
+      "61",
+      "57",
+      "75"
     ],
     "answer": 0
   },
@@ -1600,12 +1600,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=5, A2=25, A3=2, to jaki wynik zwróci formuła =MAX(A1:A3)?",
     "options": [
+      "15",
       "25",
-      "35",
-      "25",
-      "23"
+      "29",
+      "14"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 135,
@@ -1636,12 +1636,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=25, A2=16, A3=9, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "3",
-      "1",
-      "3",
-      "4"
+      "-5",
+      "0",
+      "12",
+      "3"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 138,
@@ -1696,10 +1696,10 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=5, A2=23, A3=16, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
-      "1",
+      "18",
+      "20",
       "3",
-      "3"
+      "23"
     ],
     "answer": 2
   },
@@ -1720,34 +1720,34 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=19, A2=17, A3=6, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
+      "-12",
+      "24",
       "6",
-      "16",
-      "4",
-      "6"
+      "10"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 145,
     "module": "B4",
     "question": "Jeżeli komórki A1=22, A2=22, A3=18, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "20",
-      "18",
-      "18",
-      "28"
+      "1",
+      "8",
+      "-2",
+      "18"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 146,
     "module": "B4",
     "question": "Jeżeli komórki A1=24, A2=11, A3=15, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "21",
+      "0",
       "11",
-      "11",
-      "13"
+      "9",
+      "18"
     ],
     "answer": 1
   },
@@ -1756,22 +1756,22 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=1, A2=20, A3=2, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "-4",
+      "2",
       "3",
-      "3",
-      "1",
-      "4"
+      "-15"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 148,
     "module": "B4",
     "question": "Jeżeli komórki A1=7, A2=30, A3=22, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "1",
+      "17",
       "3",
       "4",
-      "3"
+      "0"
     ],
     "answer": 1
   },
@@ -1792,22 +1792,22 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=16, A2=20, A3=2, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
-      "12.67",
-      "10.67",
-      "38",
+      "12.67 (falsz 54)",
+      "12.67 (falsz 10)",
+      "12.67 (falsz 66)",
       "12.67"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 151,
     "module": "B4",
     "question": "Jeżeli komórki A1=22, A2=3, A3=26, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "5",
+      "18",
       "3",
-      "13",
-      "3"
+      "0",
+      "-3"
     ],
     "answer": 1
   },
@@ -1816,12 +1816,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=9, A2=4, A3=10, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
+      "7.67 (falsz 64)",
       "7.67",
-      "23",
-      "7.67",
-      "5.67"
+      "7.67 (falsz 45)",
+      "7.67 (falsz 58)"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 153,
@@ -1841,9 +1841,9 @@ const db_theory = [
     "question": "Jeżeli komórki A1=15, A2=17, A3=16, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
       "16.0",
-      "16.0",
-      "14.0",
-      "18.0"
+      "16.0 (falsz 65)",
+      "16.0 (falsz 72)",
+      "16.0 (falsz 13)"
     ],
     "answer": 0
   },
@@ -1852,24 +1852,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=16, A2=21, A3=5, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "3",
-      "4",
-      "1",
+      "12",
+      "16",
+      "-8",
       "3"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 156,
     "module": "B4",
     "question": "Jeżeli komórki A1=1, A2=24, A3=18, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "1",
-      "4",
-      "3",
+      "-2",
+      "-7",
+      "16",
       "3"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "id": 157,
@@ -1888,12 +1888,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=19, A2=11, A3=17, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
+      "40",
       "47",
-      "209",
-      "47",
-      "57"
+      "61",
+      "50"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 159,
@@ -1912,10 +1912,10 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=18, A2=27, A3=20, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
+      "-7",
       "1",
       "3",
-      "3"
+      "6"
     ],
     "answer": 2
   },
@@ -1924,12 +1924,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=15, A2=20, A3=6, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
+      "-6",
       "6",
-      "20",
-      "6",
-      "4"
+      "2",
+      "1"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 162,
@@ -1972,12 +1972,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=7, A2=12, A3=25, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "5",
       "7",
-      "7",
-      "17"
+      "-8",
+      "-1",
+      "26"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 166,
@@ -1996,24 +1996,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=1, A2=17, A3=20, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
-      "12.67",
-      "38",
-      "10.67",
+      "12.67 (falsz 34)",
+      "12.67 (falsz 83)",
+      "12.67 (falsz 92)",
       "12.67"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 168,
     "module": "B4",
     "question": "Jeżeli komórki A1=11, A2=17, A3=10, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
-      "10.67",
-      "12.67",
-      "38",
+      "12.67 (falsz 58)",
+      "12.67 (falsz 69)",
+      "12.67 (falsz 72)",
       "12.67"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 169,
@@ -2032,48 +2032,48 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=16, A2=1, A3=7, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "-2",
+      "22",
       "3",
-      "4",
-      "1",
-      "3"
+      "13"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 171,
     "module": "B4",
     "question": "Jeżeli komórki A1=1, A2=5, A3=11, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
-      "17",
-      "17",
-      "5",
-      "27"
+      "24",
+      "18",
+      "19",
+      "17"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 172,
     "module": "B4",
     "question": "Jeżeli komórki A1=13, A2=3, A3=13, to jaki wynik zwróci formuła =MAX(A1:A3)?",
     "options": [
-      "11",
+      "4",
+      "-2",
       "13",
-      "13",
-      "3"
+      "26"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 173,
     "module": "B4",
     "question": "Jeżeli komórki A1=10, A2=22, A3=25, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
+      "19.0 (falsz 41)",
       "19.0",
-      "19.0",
-      "57",
-      "17.0"
+      "19.0 (falsz 76)",
+      "19.0 (falsz 11)"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 174,
@@ -2092,24 +2092,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=23, A2=27, A3=5, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "23",
       "3",
-      "4",
-      "1",
-      "3"
+      "16",
+      "-1"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 176,
     "module": "B4",
     "question": "Jeżeli komórki A1=20, A2=12, A3=5, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
+      "12.33 (falsz 51)",
+      "12.33 (falsz 74)",
       "12.33",
-      "12.33",
-      "10.33",
-      "22.33"
+      "12.33 (falsz 61)"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 177,
@@ -2128,24 +2128,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=5, A2=12, A3=30, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "5",
-      "5",
-      "7",
-      "3"
+      "21",
+      "17",
+      "22",
+      "5"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 179,
     "module": "B4",
     "question": "Jeżeli komórki A1=8, A2=1, A3=8, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
-      "17",
-      "5.67",
-      "3.67",
+      "5.67 (falsz 82)",
+      "5.67 (falsz 15)",
+      "5.67 (falsz 80)",
       "5.67"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 180,
@@ -2164,12 +2164,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=29, A2=29, A3=3, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
+      "20.33 (falsz 68)",
       "20.33",
-      "22.33",
-      "61",
-      "20.33"
+      "20.33 (falsz 54)",
+      "20.33 (falsz 67)"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 182,
@@ -2177,9 +2177,9 @@ const db_theory = [
     "question": "Jeżeli komórki A1=16, A2=2, A3=7, to jaki wynik zwróci formuła =MAX(A1:A3)?",
     "options": [
       "16",
-      "16",
-      "18",
-      "14"
+      "9",
+      "22",
+      "10"
     ],
     "answer": 0
   },
@@ -2188,34 +2188,34 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=9, A2=20, A3=10, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
       "3",
-      "3",
-      "1"
+      "-6",
+      "6",
+      "19"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 184,
     "module": "B4",
     "question": "Jeżeli komórki A1=2, A2=6, A3=9, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
-      "22",
-      "17",
-      "17",
-      "27"
+      "2",
+      "16",
+      "10",
+      "17"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 185,
     "module": "B4",
     "question": "Jeżeli komórki A1=1, A2=8, A3=24, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "3",
+      "15",
       "1",
-      "11",
-      "1"
+      "-1",
+      "12"
     ],
     "answer": 1
   },
@@ -2224,24 +2224,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=17, A2=9, A3=17, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "9",
-      "9",
-      "17",
-      "11"
+      "14",
+      "-8",
+      "-2",
+      "9"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 187,
     "module": "B4",
     "question": "Jeżeli komórki A1=22, A2=5, A3=23, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
+      "-6",
+      "15",
       "5",
-      "3",
-      "5",
-      "7"
+      "20"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 188,
@@ -2260,24 +2260,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=8, A2=16, A3=13, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "1",
+      "7",
+      "-4",
       "3",
-      "3",
-      "4"
+      "19"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 190,
     "module": "B4",
     "question": "Jeżeli komórki A1=3, A2=8, A3=27, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
-      "38",
-      "10.67",
-      "12.67",
+      "12.67 (falsz 2)",
+      "12.67 (falsz 98)",
+      "12.67 (falsz 96)",
       "12.67"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "id": 191,
@@ -2308,12 +2308,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=13, A2=16, A3=3, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
-      "32",
-      "32",
       "42",
-      "37"
+      "32",
+      "48",
+      "36"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 194,
@@ -2344,12 +2344,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=29, A2=7, A3=21, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
+      "19.0 (falsz 46)",
+      "19.0 (falsz 28)",
       "19.0",
-      "17.0",
-      "19.0",
-      "57"
+      "19.0 (falsz 99)"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 197,
@@ -2392,12 +2392,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=25, A2=15, A3=26, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "1",
-      "3",
-      "3",
-      "4"
+      "4",
+      "-4",
+      "-14",
+      "3"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 201,
@@ -2416,60 +2416,60 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=9, A2=1, A3=14, to jaki wynik zwróci formuła =MAX(A1:A3)?",
     "options": [
-      "16",
-      "1",
-      "14",
+      "7",
+      "34",
+      "19",
       "14"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "id": 203,
     "module": "B4",
     "question": "Jeżeli komórki A1=2, A2=24, A3=15, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
+      "53",
+      "36",
       "41",
-      "48",
-      "41",
-      "46"
+      "29"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 204,
     "module": "B4",
     "question": "Jeżeli komórki A1=10, A2=22, A3=25, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
+      "-6",
+      "14",
       "3",
-      "1",
-      "3"
+      "-14"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 205,
     "module": "B4",
     "question": "Jeżeli komórki A1=30, A2=29, A3=1, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
+      "74",
+      "54",
       "60",
-      "60",
-      "70",
-      "870"
+      "55"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 206,
     "module": "B4",
     "question": "Jeżeli komórki A1=5, A2=14, A3=4, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
+      "5",
       "4",
-      "6",
-      "14",
-      "4"
+      "2",
+      "3"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 207,
@@ -2488,24 +2488,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=2, A2=9, A3=9, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "13",
+      "2",
       "3",
-      "1",
-      "3",
-      "4"
+      "-7"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 209,
     "module": "B4",
     "question": "Jeżeli komórki A1=24, A2=18, A3=16, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "3",
-      "1",
-      "3",
-      "4"
+      "2",
+      "-17",
+      "-1",
+      "3"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 210,
@@ -2524,12 +2524,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=30, A2=24, A3=10, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
-      "74",
-      "69",
       "64",
-      "64"
+      "55",
+      "51",
+      "53"
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "id": 212,
@@ -2560,36 +2560,36 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=28, A2=19, A3=25, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
+      "24.0 (falsz 74)",
+      "24.0 (falsz 24)",
       "24.0",
-      "24.0",
-      "72",
-      "34.0"
+      "24.0 (falsz 50)"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 215,
     "module": "B4",
     "question": "Jeżeli komórki A1=20, A2=12, A3=9, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "7",
+      "-2",
+      "-9",
       "9",
-      "11",
-      "9"
+      "6"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 216,
     "module": "B4",
     "question": "Jeżeli komórki A1=1, A2=4, A3=16, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
       "3",
-      "3",
-      "1"
+      "15",
+      "-8",
+      "21"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 217,
@@ -2608,12 +2608,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=20, A2=25, A3=27, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
-      "20",
-      "20",
-      "30",
-      "18"
+      "10",
+      "38",
+      "12",
+      "20"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 219,
@@ -2632,12 +2632,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=21, A2=1, A3=3, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "3",
-      "3",
-      "4",
-      "1"
+      "0",
+      "-10",
+      "15",
+      "3"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 221,
@@ -2656,24 +2656,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=3, A2=25, A3=19, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
-      "25.67",
-      "15.67",
-      "47",
+      "15.67 (falsz 68)",
+      "15.67 (falsz 1)",
+      "15.67 (falsz 33)",
       "15.67"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 223,
     "module": "B4",
     "question": "Jeżeli komórki A1=10, A2=19, A3=26, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
-      "50",
+      "36",
+      "66",
       "55",
-      "60",
-      "55"
+      "61"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 224,
@@ -2692,24 +2692,24 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=12, A2=1, A3=28, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
+      "49",
+      "23",
       "41",
-      "41",
-      "12",
-      "46"
+      "42"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 226,
     "module": "B4",
     "question": "Jeżeli komórki A1=29, A2=26, A3=25, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "1",
       "4",
       "3",
-      "3"
+      "-4",
+      "-16"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 227,
@@ -2729,9 +2729,9 @@ const db_theory = [
     "question": "Jeżeli komórki A1=28, A2=7, A3=22, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
       "3",
+      "-10",
       "4",
-      "1",
-      "3"
+      "7"
     ],
     "answer": 0
   },
@@ -2740,12 +2740,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=4, A2=17, A3=21, to jaki wynik zwróci formuła =MAX(A1:A3)?",
     "options": [
+      "34",
       "21",
-      "21",
-      "31",
-      "23"
+      "33",
+      "17"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 230,
@@ -2764,12 +2764,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=12, A2=18, A3=21, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "-13",
+      "14",
       "3",
-      "4",
-      "1",
-      "3"
+      "21"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 232,
@@ -2788,12 +2788,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=11, A2=12, A3=2, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
-      "1",
-      "3",
+      "-11",
+      "13",
+      "7",
       "3"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "id": 234,
@@ -2801,9 +2801,9 @@ const db_theory = [
     "question": "Jeżeli komórki A1=11, A2=9, A3=1, to jaki wynik zwróci formuła =MIN(A1:A3)?",
     "options": [
       "1",
-      "-1",
-      "11",
-      "1"
+      "0",
+      "6",
+      "11"
     ],
     "answer": 0
   },
@@ -2812,36 +2812,36 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=15, A2=25, A3=4, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
-      "4",
-      "3",
-      "3",
-      "1"
+      "-4",
+      "-10",
+      "-1",
+      "3"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": 236,
     "module": "B4",
     "question": "Jeżeli komórki A1=7, A2=25, A3=1, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
+      "44",
+      "43",
       "33",
-      "38",
-      "33",
-      "43"
+      "14"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 237,
     "module": "B4",
     "question": "Jeżeli komórki A1=11, A2=30, A3=2, to jaki wynik zwróci formuła =SUMA(A1:A3)?",
     "options": [
-      "330",
-      "53",
+      "58",
       "43",
-      "43"
+      "61",
+      "41"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 238,
@@ -2872,12 +2872,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=9, A2=5, A3=10, to jaki wynik zwróci formuła =ILE.LICZB(A1:A3)?",
     "options": [
+      "22",
+      "7",
       "3",
-      "4",
-      "1",
-      "3"
+      "23"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 241,
@@ -2908,12 +2908,12 @@ const db_theory = [
     "module": "B4",
     "question": "Jeżeli komórki A1=28, A2=23, A3=14, to jaki wynik zwróci formuła =ŚREDNIA(A1:A3)?",
     "options": [
-      "31.67",
-      "65",
       "21.67",
-      "21.67"
+      "21.67 (falsz 93)",
+      "21.67 (falsz 10)",
+      "21.67 (falsz 39)"
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "id": 244,

@@ -1,3 +1,25 @@
+
+let timerInterval = null;
+let timeRemaining = 0;
+
+function updateTimerDisplay() {
+    const timerEl = document.getElementById('timer-display');
+    if (!timerEl) return;
+    
+    if (timeRemaining >= 0) {
+        const m = Math.floor(timeRemaining / 60);
+        const s = timeRemaining % 60;
+        timerEl.innerText = `⏳ Czas: ${m}:${s.toString().padStart(2, '0')}`;
+        timerEl.style.color = timeRemaining < 60 ? '#d9534f' : 'inherit';
+    } else {
+        const over = Math.abs(timeRemaining);
+        const m = Math.floor(over / 60);
+        const s = over % 60;
+        timerEl.innerText = `⏳ Przekroczony czas: -${m}:${s.toString().padStart(2, '0')}`;
+        timerEl.style.color = '#d9534f';
+    }
+}
+
 // Nawigacja po zakładkach
 document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -208,6 +230,8 @@ function handleNextAction() {
 }
 
 function showResults() {
+    if (timerInterval) clearInterval(timerInterval);
+
     containerUI.style.display = 'none';
     resultUI.style.display = 'block';
     
@@ -258,3 +282,26 @@ document.getElementById('btn-restart-quiz').addEventListener('click', () => {
     resultUI.style.display = 'none';
     setupUI.style.display = 'block';
 });
+
+
+// Obsługa trybu ciemnego
+const themeToggle = document.getElementById('theme-toggle');
+if (themeToggle) {
+    // Sprawdź zapisany motyw
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+        themeToggle.innerText = '☀️';
+    }
+    
+    themeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        if (document.body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+            themeToggle.innerText = '☀️';
+        } else {
+            localStorage.setItem('theme', 'light');
+            themeToggle.innerText = '🌙';
+        }
+    });
+}
+

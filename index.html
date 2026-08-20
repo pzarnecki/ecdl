@@ -8,9 +8,10 @@
 </head>
 <body>
 
-<header>
+<header style="position: relative;">
     <h1>Portal Szkoleniowy ECDL</h1>
-    <p>Podstawy pracy z komputerem, Internet, Word i Excel (Offline)</p>
+    <p>Interaktywne testy, materiały i zadania praktyczne</p>
+    <button class="theme-toggle" id="theme-toggle" title="Zmień motyw">🌙</button>
 </header>
 
 <div class="container">
@@ -225,9 +226,12 @@
         </div>
 
         <div class="quiz-container" id="quiz-container">
-            <div class="quiz-header">
-                <h3 id="quiz-progress-text">Pytanie 1 z 20</h3>
-                <span class="module-tag" id="quiz-current-module">B1</span>
+            <div class="quiz-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+                <div>
+                    <h3 id="quiz-progress-text" style="display: inline-block; margin-right: 10px;">Pytanie 1 z 20</h3>
+                    <span class="module-tag" id="quiz-current-module">B1</span>
+                </div>
+                <div id="timer-display" style="font-weight: bold; color: #d9534f; background: #fff3cd; padding: 5px 10px; border-radius: 5px; border: 1px solid #ffeeba;">⏳ Czas: 00:00</div>
             </div>
             
             <div class="question-block">
@@ -281,11 +285,11 @@
 </footer>
 
 <!-- Ładowanie baz danych -->
-<script src="js/db_theory.js"></script>
-<script src="js/db_practical.js"></script>
+<script src="js/db_theory.js?v=2"></script>
+<script src="js/db_practical.js?v=2"></script>
 <!-- Logika Aplikacji -->
-<script src="js/app.js"></script>
-<script src="js/chat.js"></script>
+<script src="js/app.js?v=2"></script>
+<script src="js/chat.js?v=2"></script>
 
 </body>
 </html>

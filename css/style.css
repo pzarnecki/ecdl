@@ -319,3 +319,75 @@ footer p {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* TRYB CIEMNY (DARK MODE) */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+body.dark-mode header,
+body.dark-mode .tabs {
+    background-color: #1e1e1e;
+    border-bottom-color: #333;
+}
+body.dark-mode .tab-btn { color: #aaa; }
+body.dark-mode .tab-btn:hover { background-color: #2a2a2a; }
+body.dark-mode .tab-btn.active {
+    color: #4da3ff;
+    border-bottom-color: #4da3ff;
+}
+body.dark-mode .item-card, 
+body.dark-mode .quiz-setup, 
+body.dark-mode #quiz-area, 
+body.dark-mode #quiz-results {
+    background-color: #1e1e1e;
+    border-color: #333;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4 { color: #fff; }
+body.dark-mode p { color: #ccc; }
+body.dark-mode footer { border-top-color: #333; }
+body.dark-mode .question-block {
+    background: #2a2a2a;
+    border-color: #444;
+}
+body.dark-mode .option-label {
+    background: #333;
+    border-color: #555;
+    color: #eee;
+}
+body.dark-mode .option-label:hover { background: #444; }
+body.dark-mode input[type="radio"]:checked + span {
+    font-weight: bold;
+    color: #4da3ff;
+}
+body.dark-mode details {
+    background: #2a2a2a !important;
+    border-left-color: #4da3ff !important;
+    color: #ccc;
+}
+body.dark-mode summary { color: #4da3ff !important; }
+
+/* Przycisk zmiany motywu */
+.theme-toggle {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background 0.3s;
+}
+.theme-toggle:hover {
+    background: #555;
+}
+body.dark-mode .theme-toggle {
+    background: #f1c40f;
+    color: #000;
+}

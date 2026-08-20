@@ -120,5 +120,14 @@ const db_practical = [
         "source": "external",
         "date": "2026-08-01",
         "questionFile": "b3pytania_b.docx"
+    },
+    {
+        "id": 14,
+        "module": "B4",
+        "title": "Egzamin Próbny 2 (Arkusze)",
+        "description": "Rozpakuj pliki z <strong>egzamin_probny_b4_2.zip</strong>. Postępuj zgodnie z poleceniami (w tym zestawie pytania prawdopodobnie znajdują się wewnątrz pliku lub w samym arkuszu).",
+        "file": "egzamin_probny_b4_2.zip",
+        "source": "external",
+        "date": "2026-08-01"
     }
 ];

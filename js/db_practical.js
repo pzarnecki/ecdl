@@ -151,7 +151,7 @@ const db_practical = [
     {
         "id": 17,
         "module": "Logistyka",
-        "title": "Kompleksowy Projekt Zaliczeniowy (Projekt Główny)",
+        "title": "Podsumowanie modułu - ćwiczenia praktyczne",
         "description": "Finałowy projekt sprawdzający wszystkie umiejętności ECDL Base. W paczce znajduje się szczegółowa instrukcja HTML krok po kroku (aż 40 precyzyjnych zadań!).<br><ul><li><strong>Część 1 (Excel - 20 zadań):</strong> Baza wypożyczeń sprzętu magazynowego. Wymaga formatowania warunkowego, funkcji logicznych oraz zbudowania wykresu i Tabeli Przestawnej.</li><li><strong>Część 2 (Word - 20 zadań):</strong> Regulamin organizacyjny. Sprawdzian z ustawień strony, przypisów, znaków wodnych, automatycznych spisów treści oraz formatowania strukturalnego (Style).</li></ul>",
         "file": "Zadania_Logistyka_Projekt_Glowny.zip",
         "source": "author",

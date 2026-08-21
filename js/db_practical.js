@@ -134,7 +134,7 @@ const db_practical = [
         "id": 15,
         "module": "Logistyka",
         "title": "Wprowadzenie do magazynu (Word + Excel)",
-        "description": "Pobierz pliki robocze. <strong>Zadanie 1 (Excel):</strong> Otwórz plik CSV z zestawieniem, sformatuj go jako tabelę. Oblicz Wartość Całkowitą (Ilość * Cena). Użyj formuły JEŻELI, aby w kolumnie Status wyświetlić 'ZAMÓW', jeśli ilość na stanie jest mniejsza niż minimalna. <strong>Zadanie 2 (Word):</strong> Otwórz i sformatuj Protokół Odbioru (dodaj ładne style, popraw błędy, wstaw listę numerowaną).",
+        "description": "Pobierz pliki robocze i wykonaj poniższe kroki:<br><ul><li><strong>Zadanie 1 (Excel):</strong> Otwórz plik CSV. Sformatuj dane jako elegancką Tabelę. Dodaj nową kolumnę i oblicz w niej <em>Wartość Całkowitą</em> (przemnóż Ilość przez Cenę). Użyj funkcji <code>=JEŻELI()</code> w kolumnie Status, aby ostrzegała napisem 'ZAMÓW', gdy ilość spadnie poniżej minimum.</li><li><strong>Zadanie 2 (Word):</strong> Otwórz surowy Protokół Odbioru. Zmień czcionki, wyśrodkuj nagłówki. Użyj listy numerowanej do zestawienia towarów i wyjustuj główny tekst. Zastosuj pogrubienia w najważniejszych miejscach.</li></ul>",
         "file": "Zadania_Logistyka.zip",
         "source": "author",
         "date": "2026-08-21"
@@ -142,9 +142,17 @@ const db_practical = [
     {
         "id": 16,
         "module": "Logistyka",
-        "title": "Zaawansowany Pakiet Magazynowy (6-7h)",
-        "description": "Ogromny pakiet zadań z Worda i Excela. <strong>Word:</strong> Formatowanie wielostronicowej Instrukcji BHP (Style, Spis Treści, Nagłówki/Stopki) oraz Korespondencja Seryjna dla wezwań do zapłaty. <strong>Excel:</strong> Wykorzystanie funkcji WYSZUKAJ.PIONOWO do automatycznego pobierania cen i nazw towarów z głównej Bazy Towarów, Filtrowanie zaawansowane, Sortowanie i Podsumowania częściowe.",
+        "title": "Moduł Logistyczny (Część 2) - Bazy danych i Dokumentacja",
+        "description": "Pakiet zaawansowanych ćwiczeń symulujących pracę w logistyce.<br><ul><li><strong>Korespondencja Seryjna (Word + Excel):</strong> Na podstawie bazy klientów wygeneruj masowe wezwania do odbioru (korzystając z załączonej instrukcji).</li><li><strong>Instrukcja BHP (Word):</strong> Surowy, wielostronicowy dokument sformatuj profesjonalnie używając Styli Nagłówków, a następnie wygeneruj z nich automatyczny Spis Treści.</li><li><strong>Baza Towarów (Excel):</strong> Użyj polecenia <code>WYSZUKAJ.PIONOWO</code>, aby automatycznie zaciągać nazwy i ceny towarów do pustego raportu na podstawie numeru ID. Zastosuj filtry, aby wyświetlić tylko konkretnych dostawców.</li></ul>",
         "file": "Zadania_Logistyka_Full_Day.zip",
+        "source": "author",
+        "date": "2026-08-21",
+    {
+        "id": 17,
+        "module": "Logistyka",
+        "title": "Kompleksowy Projekt Zaliczeniowy (Projekt Główny)",
+        "description": "Finałowy projekt sprawdzający wszystkie umiejętności ECDL Base. W paczce znajduje się szczegółowa instrukcja HTML krok po kroku (aż 40 precyzyjnych zadań!).<br><ul><li><strong>Część 1 (Excel - 20 zadań):</strong> Baza wypożyczeń sprzętu magazynowego. Wymaga formatowania warunkowego, funkcji logicznych oraz zbudowania wykresu i Tabeli Przestawnej.</li><li><strong>Część 2 (Word - 20 zadań):</strong> Regulamin organizacyjny. Sprawdzian z ustawień strony, przypisów, znaków wodnych, automatycznych spisów treści oraz formatowania strukturalnego (Style).</li></ul>",
+        "file": "Zadania_Logistyka_Projekt_Glowny.zip",
         "source": "author",
         "date": "2026-08-21"
     }

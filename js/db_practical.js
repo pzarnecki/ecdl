@@ -129,5 +129,14 @@ const db_practical = [
         "file": "egzamin_probny_b4_2.zip",
         "source": "external",
         "date": "2026-08-01"
+    },
+    {
+        "id": 15,
+        "module": "Logistyka",
+        "title": "Wprowadzenie do magazynu (Word + Excel)",
+        "description": "Pobierz pliki robocze. <strong>Zadanie 1 (Excel):</strong> Otwórz plik CSV z zestawieniem, sformatuj go jako tabelę. Oblicz Wartość Całkowitą (Ilość * Cena). Użyj formuły JEŻELI, aby w kolumnie Status wyświetlić 'ZAMÓW', jeśli ilość na stanie jest mniejsza niż minimalna. <strong>Zadanie 2 (Word):</strong> Otwórz i sformatuj Protokół Odbioru (dodaj ładne style, popraw błędy, wstaw listę numerowaną).",
+        "file": "Zadania_Logistyka.zip",
+        "source": "author",
+        "date": "2026-08-21"
     }
 ];

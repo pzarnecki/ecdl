@@ -391,3 +391,16 @@ body.dark-mode .theme-toggle {
     background: #f1c40f;
     color: #000;
 }
+body.dark-mode table tr {
+    background-color: transparent !important;
+}
+body.dark-mode table tr:nth-child(even) {
+    background-color: #2a2a2a !important;
+}
+body.dark-mode table td, body.dark-mode table th {
+    border-color: #444 !important;
+}
+body.dark-mode table tr[style*="#fff3cd"] {
+    background-color: #5a4b15 !important;
+    color: #ffd966 !important;
+}

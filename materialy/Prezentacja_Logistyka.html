@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wprowadzenie do Gospodarki Magazynowej i Logistyki</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            overflow-x: hidden;
+        }
+        .slide {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            box-sizing: border-box;
+            border-bottom: 2px solid #ddd;
+            background: white;
+            text-align: center;
+        }
+        .slide:nth-child(even) {
+            background: #e9ecef;
+        }
+        h1 {
+            color: #007bff;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #0056b3;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        p, li {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 10px auto;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #856404;
+        }
+        .nav-hints {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.5);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-hints">Przewiń w dół, aby zmienić slajd (Scroll) ↓</div>
+
+    <div class="slide" id="slide1">
+        <h1>Wprowadzenie do Gospodarki Magazynowej</h1>
+        <p>Podstawowe pojęcia, obieg dokumentów i wstęp do oprogramowania (m.in. Symfonia)</p>
+        <p style="margin-top: 50px; font-size: 1.2rem; color: #666;">Szkolenie komputerowe ECDL / Logistyka</p>
+    </div>
+
+    <div class="slide" id="slide2">
+        <h2>Czym jest Logistyka?</h2>
+        <p>Logistyka to proces planowania, realizowania i kontrolowania sprawnego i efektywnego ekonomicznie przepływu surowców, materiałów, gotowych wyrobów oraz odpowiedniej informacji.</p>
+        <p><span class="highlight">Złota zasada 7W:</span> Właściwy produkt, we właściwej ilości, we właściwym stanie, we właściwym miejscu, we właściwym czasie, dla właściwego klienta, po właściwych kosztach.</p>
+    </div>
+
+    <div class="slide" id="slide3">
+        <h2>Gospodarka Magazynowa</h2>
+        <p>To zbiór działań związanych z przechowywaniem zapasów. Do jej głównych celów należy:</p>
+        <ul>
+            <li>Przyjmowanie towarów z zewnątrz (PZ).</li>
+            <li>Przechowywanie i zabezpieczanie majątku.</li>
+            <li>Kompletowanie zamówień.</li>
+            <li>Wydawanie towarów na zewnątrz (WZ).</li>
+        </ul>
+    </div>
+
+    <div class="slide" id="slide4">
+        <h2>Podstawowe Dokumenty Magazynowe</h2>
+        <p>W programach takich jak Excel czy Symfonia najczęściej spotkasz się z:</p>
+        <ul>
+            <li><strong>PZ</strong> (Przyjęcie Zewnętrzne) - wprowadzamy towar na stan.</li>
+            <li><strong>WZ</strong> (Wydanie Zewnętrzne) - zdejmujemy towar ze stanu.</li>
+            <li><strong>PW</strong> (Przyjęcie Wewnętrzne) i <strong>RW</strong> (Rozchód Wewnętrzny).</li>
+            <li><strong>MM</strong> (Przesunięcie Międzymagazynowe).</li>
+        </ul>
+    </div>
+
+    <div class="slide" id="slide5">
+        <h2>Dlaczego uczymy się Excela przed Symfonią?</h2>
+        <p>Wiele małych firm prowadzi proste stany magazynowe właśnie w arkuszach kalkulacyjnych. Funkcje takie jak <span class="highlight">SUMA</span>, <span class="highlight">JEŻELI</span> (do alertów o brakach) oraz <span class="highlight">WYSZUKAJ.PIONOWO</span> to absolutna podstawa zarządzania danymi przed przejściem na dedykowane systemy ERP.</p>
+    </div>
+
+    <div class="slide" id="slide6">
+        <h2>Zadanie Praktyczne na dziś</h2>
+        <p>Zastosujemy teorię w praktyce!</p>
+        <ul>
+            <li><strong>Word:</strong> Sformatujemy oficjalny Protokół Odbioru Towaru z magazynu.</li>
+            <li><strong>Excel:</strong> Zbudujemy prosty arkusz monitorujący Stany Magazynowe. Obliczymy wartość towaru i stworzymy automatyczne alerty (status "Zamów!").</li>
+        </ul>
+        <h3 style="margin-top: 40px; color: #28a745;">Powodzenia!</h3>
+    </div>
+
+</body>
+</html>

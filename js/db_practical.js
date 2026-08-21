@@ -146,7 +146,8 @@ const db_practical = [
         "description": "Pakiet zaawansowanych ćwiczeń symulujących pracę w logistyce.<br><ul><li><strong>Korespondencja Seryjna (Word + Excel):</strong> Na podstawie bazy klientów wygeneruj masowe wezwania do odbioru (korzystając z załączonej instrukcji).</li><li><strong>Instrukcja BHP (Word):</strong> Surowy, wielostronicowy dokument sformatuj profesjonalnie używając Styli Nagłówków, a następnie wygeneruj z nich automatyczny Spis Treści.</li><li><strong>Baza Towarów (Excel):</strong> Użyj polecenia <code>WYSZUKAJ.PIONOWO</code>, aby automatycznie zaciągać nazwy i ceny towarów do pustego raportu na podstawie numeru ID. Zastosuj filtry, aby wyświetlić tylko konkretnych dostawców.</li></ul>",
         "file": "Zadania_Logistyka_Full_Day.zip",
         "source": "author",
-        "date": "2026-08-21",
+        "date": "2026-08-21"
+    },
     {
         "id": 17,
         "module": "Logistyka",

@@ -138,5 +138,14 @@ const db_practical = [
         "file": "Zadania_Logistyka.zip",
         "source": "author",
         "date": "2026-08-21"
+    },
+    {
+        "id": 16,
+        "module": "Logistyka",
+        "title": "Zaawansowany Pakiet Magazynowy (6-7h)",
+        "description": "Ogromny pakiet zadań z Worda i Excela. <strong>Word:</strong> Formatowanie wielostronicowej Instrukcji BHP (Style, Spis Treści, Nagłówki/Stopki) oraz Korespondencja Seryjna dla wezwań do zapłaty. <strong>Excel:</strong> Wykorzystanie funkcji WYSZUKAJ.PIONOWO do automatycznego pobierania cen i nazw towarów z głównej Bazy Towarów, Filtrowanie zaawansowane, Sortowanie i Podsumowania częściowe.",
+        "file": "Zadania_Logistyka_Full_Day.zip",
+        "source": "author",
+        "date": "2026-08-21"
     }
 ];

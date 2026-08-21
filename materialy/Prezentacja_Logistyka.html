@@ -1,123 +1,189 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wprowadzenie do Gospodarki Magazynowej i Logistyki</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Wprowadzenie do Logistyki i Magazynu</title>
+    
+    <!-- Reveal.js CSS (via CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/simple.min.css">
+    
     <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7f6;
-            color: #333;
-            overflow-x: hidden;
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+            color: #007bff; 
+            text-transform: none;
+            font-weight: bold;
         }
-        .slide {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 40px;
-            box-sizing: border-box;
-            border-bottom: 2px solid #ddd;
-            background: white;
-            text-align: center;
-        }
-        .slide:nth-child(even) {
-            background: #e9ecef;
-        }
-        h1 {
-            color: #007bff;
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #0056b3;
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-        }
-        p, li {
-            font-size: 1.5rem;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 10px auto;
-        }
-        ul {
-            text-align: left;
-            display: inline-block;
-        }
-        .highlight {
+        .reveal .highlight {
             background: #fff3cd;
-            padding: 5px 10px;
+            color: #856404;
+            padding: 2px 10px;
             border-radius: 5px;
             font-weight: bold;
-            color: #856404;
         }
-        .nav-hints {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: rgba(0,0,0,0.5);
-            color: white;
-            padding: 10px 15px;
-            border-radius: 20px;
-            font-size: 0.9rem;
+        .reveal ul {
+            display: inline-block;
+            text-align: left;
+        }
+        .reveal p {
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- 1 -->
+            <section>
+                <h1>Gospodarka Magazynowa i Logistyka</h1>
+                <h3>Wprowadzenie teoretyczne</h3>
+                <p>Szkolenie komputerowe ECDL / Logistyka</p>
+                <p style="font-size: 0.6em; color: gray; margin-top: 50px;">(Użyj strzałek w lewo/prawo lub spacji, aby zmieniać slajdy)</p>
+            </section>
+            
+            <!-- 2 -->
+            <section>
+                <h2>Czym jest Logistyka?</h2>
+                <p>Proces planowania, realizowania i kontrolowania sprawnego przepływu surowców, materiałów, gotowych wyrobów oraz informacji.</p>
+            </section>
+            
+            <!-- 3 -->
+            <section>
+                <h2>Złota zasada logistyki (7W)</h2>
+                <p>Istotą logistyki jest dostarczenie wszystkiego we właściwy sposób. Reguła 7W określa 7 fundamentalnych filarów tego procesu.</p>
+            </section>
+            
+            <!-- 4 -->
+            <section>
+                <h2>1. Właściwy produkt</h2>
+                <p>Dostarczenie dokładnie tego towaru, który został zamówiony. Bez pomyłek i zamienników bez zgody klienta.</p>
+            </section>
 
-    <div class="nav-hints">Przewiń w dół, aby zmienić slajd (Scroll) ↓</div>
+            <!-- 5 -->
+            <section>
+                <h2>2. Właściwa ilość</h2>
+                <p>Stan magazynowy musi się zgadzać z zapotrzebowaniem. Za mało to braki i przestoje, za dużo to zamrożony kapitał.</p>
+            </section>
 
-    <div class="slide" id="slide1">
-        <h1>Wprowadzenie do Gospodarki Magazynowej</h1>
-        <p>Podstawowe pojęcia, obieg dokumentów i wstęp do oprogramowania (m.in. Symfonia)</p>
-        <p style="margin-top: 50px; font-size: 1.2rem; color: #666;">Szkolenie komputerowe ECDL / Logistyka</p>
+            <!-- 6 -->
+            <section>
+                <h2>3. Właściwy stan</h2>
+                <p>Towar musi dotrzeć w stanie nienaruszonym (bez uszkodzeń mechanicznych czy przeterminowania).</p>
+            </section>
+
+            <!-- 7 -->
+            <section>
+                <h2>4. Właściwe miejsce</h2>
+                <p>Precyzja dostawy – na odpowiedni magazyn, rampę rozładunkową czy bezpośrednio do rąk klienta.</p>
+            </section>
+
+            <!-- 8 -->
+            <section>
+                <h2>5. Właściwy czas</h2>
+                <p>Zarządzanie czasem (np. Just-In-Time). Towar dostarczony za późno wstrzymuje produkcję, dostarczony za wcześnie zajmuje miejsce.</p>
+            </section>
+
+            <!-- 9 -->
+            <section>
+                <h2>6. Właściwy klient</h2>
+                <p>Dane odbiorcy muszą być bezbłędnie zweryfikowane. Wystarczy pomyłka w kodzie pocztowym, aby łańcuch dostaw został zerwany.</p>
+            </section>
+
+            <!-- 10 -->
+            <section>
+                <h2>7. Właściwy koszt</h2>
+                <p>Optymalizacja – cały proces musi być opłacalny dla przedsiębiorstwa i konkurencyjny dla klienta.</p>
+            </section>
+
+            <!-- 11 -->
+            <section>
+                <h2>Czym jest Gospodarka Magazynowa?</h2>
+                <p>Zbiór działań organizacyjnych i technologicznych, które służą do bezpiecznego przechowywania zapasów i ich odpowiedniej rotacji.</p>
+            </section>
+
+            <!-- 12 -->
+            <section>
+                <h2>Podstawowe strefy magazynu</h2>
+                <ul>
+                    <li>Strefa przyjęć</li>
+                    <li>Strefa składowania (regały)</li>
+                    <li>Strefa kompletacji (zbieranie zamówień)</li>
+                    <li>Strefa wydań</li>
+                </ul>
+            </section>
+
+            <!-- 13 -->
+            <section>
+                <h2>Obieg dokumentów (Papier/Elektronika)</h2>
+                <p>Żaden towar nie może opuścić ani wejść do magazynu bez śladu. Służą do tego standaryzowane dokumenty.</p>
+            </section>
+
+            <!-- 14 -->
+            <section>
+                <h2>Dokument PZ</h2>
+                <p><span class="highlight">Przyjęcie Zewnętrzne</span></p>
+                <p>Potwierdza wejście towaru od dostawcy z zewnątrz na stan naszego magazynu.</p>
+            </section>
+
+            <!-- 15 -->
+            <section>
+                <h2>Dokument WZ</h2>
+                <p><span class="highlight">Wydanie Zewnętrzne</span></p>
+                <p>Potwierdza fizyczne wydanie towaru z naszego magazynu na zewnątrz (do klienta).</p>
+            </section>
+
+            <!-- 16 -->
+            <section>
+                <h2>Dokumenty PW i RW</h2>
+                <p><span class="highlight">Przyjęcie / Rozchód Wewnętrzny</span></p>
+                <p>Używane, gdy wydajemy towar na własne potrzeby (np. części do naprawy maszyny na hali produkcyjnej).</p>
+            </section>
+
+            <!-- 17 -->
+            <section>
+                <h2>Dokument MM</h2>
+                <p><span class="highlight">Przesunięcie Międzymagazynowe</span></p>
+                <p>Przeniesienie zapasów między dwoma magazynami tej samej firmy.</p>
+            </section>
+
+            <!-- 18 -->
+            <section>
+                <h2>Dlaczego uczymy się Excela?</h2>
+                <p>Większość małych i średnich firm zaczyna od prowadzenia stanów magazynowych w arkuszach kalkulacyjnych, zanim zainwestują w system ERP (np. Symfonia).</p>
+            </section>
+
+            <!-- 19 -->
+            <section>
+                <h2>Przydatne narzędzia informatyka-logistyka</h2>
+                <ul>
+                    <li><span class="highlight">JEŻELI()</span> - Alerty o braku towaru</li>
+                    <li><span class="highlight">WYSZUKAJ.PIONOWO()</span> - Automatyczne cenniki</li>
+                    <li><span class="highlight">Filtry i Tabele przestawne</span> - Raporty dla kierownika</li>
+                    <li><span class="highlight">Korespondencja seryjna (Word)</span> - Zawiadomienia</li>
+                </ul>
+            </section>
+
+            <!-- 20 -->
+            <section>
+                <h2>Podsumowanie</h2>
+                <p>Dobry logistyk to sprawny informatyk. Umiejętność automatyzacji biurowej to klucz do sukcesu i unikania pomyłek.</p>
+                <h3 style="margin-top: 30px; color: #28a745;">Czas na zadania praktyczne!</h3>
+            </section>
+
+        </div>
     </div>
 
-    <div class="slide" id="slide2">
-        <h2>Czym jest Logistyka?</h2>
-        <p>Logistyka to proces planowania, realizowania i kontrolowania sprawnego i efektywnego ekonomicznie przepływu surowców, materiałów, gotowych wyrobów oraz odpowiedniej informacji.</p>
-        <p><span class="highlight">Złota zasada 7W:</span> Właściwy produkt, we właściwej ilości, we właściwym stanie, we właściwym miejscu, we właściwym czasie, dla właściwego klienta, po właściwych kosztach.</p>
-    </div>
-
-    <div class="slide" id="slide3">
-        <h2>Gospodarka Magazynowa</h2>
-        <p>To zbiór działań związanych z przechowywaniem zapasów. Do jej głównych celów należy:</p>
-        <ul>
-            <li>Przyjmowanie towarów z zewnątrz (PZ).</li>
-            <li>Przechowywanie i zabezpieczanie majątku.</li>
-            <li>Kompletowanie zamówień.</li>
-            <li>Wydawanie towarów na zewnątrz (WZ).</li>
-        </ul>
-    </div>
-
-    <div class="slide" id="slide4">
-        <h2>Podstawowe Dokumenty Magazynowe</h2>
-        <p>W programach takich jak Excel czy Symfonia najczęściej spotkasz się z:</p>
-        <ul>
-            <li><strong>PZ</strong> (Przyjęcie Zewnętrzne) - wprowadzamy towar na stan.</li>
-            <li><strong>WZ</strong> (Wydanie Zewnętrzne) - zdejmujemy towar ze stanu.</li>
-            <li><strong>PW</strong> (Przyjęcie Wewnętrzne) i <strong>RW</strong> (Rozchód Wewnętrzny).</li>
-            <li><strong>MM</strong> (Przesunięcie Międzymagazynowe).</li>
-        </ul>
-    </div>
-
-    <div class="slide" id="slide5">
-        <h2>Dlaczego uczymy się Excela przed Symfonią?</h2>
-        <p>Wiele małych firm prowadzi proste stany magazynowe właśnie w arkuszach kalkulacyjnych. Funkcje takie jak <span class="highlight">SUMA</span>, <span class="highlight">JEŻELI</span> (do alertów o brakach) oraz <span class="highlight">WYSZUKAJ.PIONOWO</span> to absolutna podstawa zarządzania danymi przed przejściem na dedykowane systemy ERP.</p>
-    </div>
-
-    <div class="slide" id="slide6">
-        <h2>Zadanie Praktyczne na dziś</h2>
-        <p>Zastosujemy teorię w praktyce!</p>
-        <ul>
-            <li><strong>Word:</strong> Sformatujemy oficjalny Protokół Odbioru Towaru z magazynu.</li>
-            <li><strong>Excel:</strong> Zbudujemy prosty arkusz monitorujący Stany Magazynowe. Obliczymy wartość towaru i stworzymy automatyczne alerty (status "Zamów!").</li>
-        </ul>
-        <h3 style="margin-top: 40px; color: #28a745;">Powodzenia!</h3>
-    </div>
-
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            transition: 'slide' // opcje: none/fade/slide/convex/concave/zoom
+        });
+    </script>
 </body>
 </html>

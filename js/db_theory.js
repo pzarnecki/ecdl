@@ -5999,4 +5999,1306 @@ const db_theory = [
     ],
     "answer": 0
   }
+,
+    {
+        "id": 1000,
+        "module": "B1",
+        "question": "Co to jest system operacyjny?",
+        "options": [
+            "Oprogramowanie zarządzające sprzętem i aplikacjami",
+            "Program do pisania tekstów",
+            "Fizyczna część komputera",
+            "Wirus komputerowy"
+        ],
+        "answer": "Oprogramowanie zarządzające sprzętem i aplikacjami",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1001,
+        "module": "B1",
+        "question": "Które z poniższych jest urządzeniem wejścia?",
+        "options": [
+            "Klawiatura",
+            "Monitor",
+            "Drukarka",
+            "Głośniki"
+        ],
+        "answer": "Klawiatura",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1002,
+        "module": "B1",
+        "question": "Które urządzenie służy do wyświetlania obrazu?",
+        "options": [
+            "Monitor",
+            "Mysz",
+            "Skaner",
+            "Mikrofon"
+        ],
+        "answer": "Monitor",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1003,
+        "module": "B1",
+        "question": "Co oznacza skrót RAM?",
+        "options": [
+            "Random Access Memory",
+            "Read Access Memory",
+            "Run All Macros",
+            "Real Allocation Memory"
+        ],
+        "answer": "Random Access Memory",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1004,
+        "module": "B1",
+        "question": "Dysk SSD różni się od HDD tym, że:",
+        "options": [
+            "Nie ma ruchomych części i jest szybszy",
+            "Jest znacznie wolniejszy",
+            "Służy tylko do przechowywania muzyki",
+            "Wymaga zasilania z baterii"
+        ],
+        "answer": "Nie ma ruchomych części i jest szybszy",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1005,
+        "module": "B1",
+        "question": "Który port służy powszechnie do podłączania pendrive'ów?",
+        "options": [
+            "USB",
+            "HDMI",
+            "VGA",
+            "Ethernet"
+        ],
+        "answer": "USB",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1006,
+        "module": "B1",
+        "question": "Co robi skrót Ctrl+C?",
+        "options": [
+            "Kopiuje zaznaczony element",
+            "Wkleja element",
+            "Wycina element",
+            "Zamyka system"
+        ],
+        "answer": "Kopiuje zaznaczony element",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1007,
+        "module": "B1",
+        "question": "Co robi skrót Ctrl+V?",
+        "options": [
+            "Wkleja schowek",
+            "Kopiuje",
+            "Cofa",
+            "Zapisuje"
+        ],
+        "answer": "Wkleja schowek",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1008,
+        "module": "B1",
+        "question": "Gdzie standardowo trafiają usunięte pliki w systemie Windows?",
+        "options": [
+            "Kosz",
+            "Panel Sterowania",
+            "Moje Dokumenty",
+            "Dysk C:"
+        ],
+        "answer": "Kosz",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1009,
+        "module": "B1",
+        "question": "Jakie rozszerzenie ma plik wykonywalny w Windows?",
+        "options": [
+            ".exe",
+            ".txt",
+            ".docx",
+            ".xlsx"
+        ],
+        "answer": ".exe",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1010,
+        "module": "B1",
+        "question": "Co to jest CPU?",
+        "options": [
+            "Procesor (Central Processing Unit)",
+            "Karta graficzna",
+            "Zasilacz",
+            "Pamięć RAM"
+        ],
+        "answer": "Procesor (Central Processing Unit)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1011,
+        "module": "B1",
+        "question": "Jak prawidłowo zamknąć system Windows?",
+        "options": [
+            "Menu Start -> Zasilanie -> Zamknij",
+            "Wyciągnąć wtyczkę z gniazdka",
+            "Wcisnąć reset na obudowie",
+            "Wyłączyć monitor"
+        ],
+        "answer": "Menu Start -> Zasilanie -> Zamknij",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1012,
+        "module": "B1",
+        "question": "Co oznacza pojęcie 'Hardware'?",
+        "options": [
+            "Sprzęt komputerowy (fizyczne części)",
+            "Oprogramowanie",
+            "Wirusy komputerowe",
+            "Sieć internetowa"
+        ],
+        "answer": "Sprzęt komputerowy (fizyczne części)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1013,
+        "module": "B1",
+        "question": "Co oznacza pojęcie 'Software'?",
+        "options": [
+            "Oprogramowanie (programy i system)",
+            "Klawiatura i mysz",
+            "Kable sieciowe",
+            "Płyta główna"
+        ],
+        "answer": "Oprogramowanie (programy i system)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1014,
+        "module": "B1",
+        "question": "Do czego służy Karta Graficzna (GPU)?",
+        "options": [
+            "Do generowania i wyświetlania obrazu",
+            "Do drukowania dokumentów",
+            "Do odtwarzania dźwięku",
+            "Do łączenia z internetem"
+        ],
+        "answer": "Do generowania i wyświetlania obrazu",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1015,
+        "module": "B1",
+        "question": "Co to jest płyta główna?",
+        "options": [
+            "Główny obwód łączący wszystkie podzespoły komputera",
+            "Obudowa komputera",
+            "Dysk twardy",
+            "Zewnętrzny zasilacz"
+        ],
+        "answer": "Główny obwód łączący wszystkie podzespoły komputera",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1016,
+        "module": "B1",
+        "question": "Ile bajtów ma kilobajt (KB)?",
+        "options": [
+            "1024",
+            "1000",
+            "100",
+            "10"
+        ],
+        "answer": "1024",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1017,
+        "module": "B1",
+        "question": "Co to jest plik ZIP?",
+        "options": [
+            "Skompresowane archiwum plików",
+            "Plik graficzny",
+            "Dokument tekstowy",
+            "Plik systemowy"
+        ],
+        "answer": "Skompresowane archiwum plików",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1018,
+        "module": "B1",
+        "question": "Który skrót klawiszowy służy do zaznaczania wszystkiego?",
+        "options": [
+            "Ctrl+A",
+            "Ctrl+Z",
+            "Ctrl+X",
+            "Ctrl+S"
+        ],
+        "answer": "Ctrl+A",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1019,
+        "module": "B1",
+        "question": "Jakie urządzenie łączy komputer z siecią (Internetem)?",
+        "options": [
+            "Karta sieciowa / Router",
+            "Karta dźwiękowa",
+            "Klawiatura",
+            "Skaner"
+        ],
+        "answer": "Karta sieciowa / Router",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1020,
+        "module": "B1",
+        "question": "Do czego służy skrót Ctrl+Z?",
+        "options": [
+            "Cofa ostatnią akcję",
+            "Zapisuje plik",
+            "Zamyka okno",
+            "Kopiuje tekst"
+        ],
+        "answer": "Cofa ostatnią akcję",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1021,
+        "module": "B1",
+        "question": "Czym jest system plików NTFS?",
+        "options": [
+            "Systemem organizowania danych na dysku w Windows",
+            "Protokołem sieciowym",
+            "Wirusem",
+            "Programem biurowym"
+        ],
+        "answer": "Systemem organizowania danych na dysku w Windows",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1022,
+        "module": "B1",
+        "question": "Jaka jest główna rola zasilacza w komputerze?",
+        "options": [
+            "Dostarczanie odpowiedniego napięcia do podzespołów",
+            "Chłodzenie procesora",
+            "Zapisywanie danych",
+            "Wyświetlanie obrazu"
+        ],
+        "answer": "Dostarczanie odpowiedniego napięcia do podzespołów",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1023,
+        "module": "B1",
+        "question": "Czym jest rozdzielczość ekranu?",
+        "options": [
+            "Liczbą pikseli w poziomie i pionie",
+            "Fizycznym rozmiarem monitora w calach",
+            "Ilością kolorów",
+            "Częstotliwością odświeżania"
+        ],
+        "answer": "Liczbą pikseli w poziomie i pionie",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1024,
+        "module": "B1",
+        "question": "Co to jest GUI?",
+        "options": [
+            "Graficzny interfejs użytkownika",
+            "Główny system operacyjny",
+            "Wirus",
+            "Protokół internetowy"
+        ],
+        "answer": "Graficzny interfejs użytkownika",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1025,
+        "module": "B1",
+        "question": "Do czego służy klawisz PrtSc (Print Screen)?",
+        "options": [
+            "Do zrobienia zrzutu ekranu",
+            "Do wydrukowania dokumentu na drukarce",
+            "Do wyłączenia monitora",
+            "Do zamknięcia okna"
+        ],
+        "answer": "Do zrobienia zrzutu ekranu",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1026,
+        "module": "B1",
+        "question": "Czym jest 'Menadżer zadań' w systemie Windows?",
+        "options": [
+            "Narzędziem do monitorowania i zamykania procesów",
+            "Programem do pisania",
+            "Edytorem grafiki",
+            "Grą komputerową"
+        ],
+        "answer": "Narzędziem do monitorowania i zamykania procesów",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1027,
+        "module": "B1",
+        "question": "Co się dzieje po użyciu skrótu Alt+F4?",
+        "options": [
+            "Aktywne okno/program zostaje zamknięte",
+            "Komputer usypia",
+            "Zapisuje się dokument",
+            "Zmienia się język klawiatury"
+        ],
+        "answer": "Aktywne okno/program zostaje zamknięte",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1028,
+        "module": "B1",
+        "question": "Jak rozpoznać folder w systemie Windows?",
+        "options": [
+            "Standardowo ma ikonę żółtej teczki",
+            "Ma rozszerzenie .exe",
+            "Jest zawsze w kolorze czerwonym",
+            "Nie da się go rozpoznać"
+        ],
+        "answer": "Standardowo ma ikonę żółtej teczki",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1029,
+        "module": "B1",
+        "question": "Co robi opcja 'Uruchom ponownie'?",
+        "options": [
+            "Zamyka system i od razu uruchamia go na nowo",
+            "Instaluje nowy system",
+            "Usuwa wszystkie dane",
+            "Przechodzi w stan uśpienia"
+        ],
+        "answer": "Zamyka system i od razu uruchamia go na nowo",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1030,
+        "module": "B1",
+        "question": "Co to jest 'Pasek zadań'?",
+        "options": [
+            "Pasek u dołu ekranu z ikonami programów i zegarem",
+            "Pasek adresu w przeglądarce",
+            "Górne menu w Wordzie",
+            "Kabel zasilający"
+        ],
+        "answer": "Pasek u dołu ekranu z ikonami programów i zegarem",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1031,
+        "module": "B1",
+        "question": "Czym jest 'Pulpit' w kontekście systemu operacyjnego?",
+        "options": [
+            "Główny ekran wyświetlany po zalogowaniu",
+            "Fizyczne biurko",
+            "Dysk zewnętrzny",
+            "Karta graficzna"
+        ],
+        "answer": "Główny ekran wyświetlany po zalogowaniu",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1032,
+        "module": "B1",
+        "question": "Do czego służy rozszerzenie .pdf?",
+        "options": [
+            "Do dokumentów przeznaczonych głównie do odczytu i druku",
+            "Do muzyki",
+            "Do filmów",
+            "Do aplikacji"
+        ],
+        "answer": "Do dokumentów przeznaczonych głównie do odczytu i druku",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1033,
+        "module": "B1",
+        "question": "Który program domyślnie otwiera pliki .txt?",
+        "options": [
+            "Notatnik",
+            "Kalkulator",
+            "Przeglądarka zdjęć",
+            "Odtwarzacz wideo"
+        ],
+        "answer": "Notatnik",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1034,
+        "module": "B1",
+        "question": "Co robi klawisz 'Backspace'?",
+        "options": [
+            "Usuwa znak przed kursorem",
+            "Usuwa znak za kursorem",
+            "Tworzy nowy akapit",
+            "Kopiuje tekst"
+        ],
+        "answer": "Usuwa znak przed kursorem",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1035,
+        "module": "B1",
+        "question": "Co robi klawisz 'Delete' (w edytorze tekstu)?",
+        "options": [
+            "Usuwa znak za kursorem",
+            "Usuwa znak przed kursorem",
+            "Otwiera menu Start",
+            "Cofa akcję"
+        ],
+        "answer": "Usuwa znak za kursorem",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1036,
+        "module": "B1",
+        "question": "Które z poniższych to system operacyjny?",
+        "options": [
+            "Linux",
+            "Microsoft Word",
+            "Google Chrome",
+            "Adobe Photoshop"
+        ],
+        "answer": "Linux",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1037,
+        "module": "B1",
+        "question": "Jaka czynność na myszce standardowo otwiera plik/program?",
+        "options": [
+            "Podwójne kliknięcie lewym przyciskiem",
+            "Pojedyncze kliknięcie prawym",
+            "Przewinięcie kółkiem",
+            "Przytrzymanie przycisku"
+        ],
+        "answer": "Podwójne kliknięcie lewym przyciskiem",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1038,
+        "module": "B1",
+        "question": "Co to jest 'Aktualizacja systemu'?",
+        "options": [
+            "Pobranie poprawek i ulepszeń od producenta",
+            "Wymiana procesora",
+            "Zakup nowego komputera",
+            "Skasowanie wszystkich plików"
+        ],
+        "answer": "Pobranie poprawek i ulepszeń od producenta",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1039,
+        "module": "B1",
+        "question": "Co oznacza praca w 'tle' (w kontekście programów)?",
+        "options": [
+            "Program działa, ale nie widać jego głównego okna",
+            "Program został odinstalowany",
+            "Program zużywa 100% procesora",
+            "Program czeka na pobranie"
+        ],
+        "answer": "Program działa, ale nie widać jego głównego okna",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1040,
+        "module": "B1",
+        "question": "Gdzie najlepiej zapisywać ważne dokumenty firmowe?",
+        "options": [
+            "Na dysku sieciowym lub chmurze z kopią zapasową",
+            "Na pulpicie",
+            "W Koszu",
+            "Na starym pendrive'ie"
+        ],
+        "answer": "Na dysku sieciowym lub chmurze z kopią zapasową",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1041,
+        "module": "B1",
+        "question": "Co to jest 'Rozszerzenie pliku'?",
+        "options": [
+            "Część nazwy po kropce określająca typ pliku",
+            "Rozmiar pliku w megabajtach",
+            "Ikona pliku",
+            "Folder, w którym się znajduje"
+        ],
+        "answer": "Część nazwy po kropce określająca typ pliku",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1042,
+        "module": "B1",
+        "question": "Dlaczego warto robić 'Kopię zapasową' (Backup)?",
+        "options": [
+            "Aby nie stracić danych w razie awarii dysku",
+            "Aby komputer szybciej działał",
+            "Aby usunąć wirusy",
+            "Aby zmienić hasło"
+        ],
+        "answer": "Aby nie stracić danych w razie awarii dysku",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1043,
+        "module": "B1",
+        "question": "Co robi skrót Windows + D?",
+        "options": [
+            "Minimalizuje wszystkie okna i pokazuje pulpit",
+            "Wyłącza komputer",
+            "Kopiuje tekst",
+            "Otwiera kalkulator"
+        ],
+        "answer": "Minimalizuje wszystkie okna i pokazuje pulpit",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1044,
+        "module": "B1",
+        "question": "Czym jest tryb 'Uśpienia' komputera?",
+        "options": [
+            "Stanem niskiego zużycia energii pozwalającym na szybki powrót do pracy",
+            "Stanem całkowitego wyłączenia",
+            "Stanem instalacji aktualizacji",
+            "Trybem awaryjnym"
+        ],
+        "answer": "Stanem niskiego zużycia energii pozwalającym na szybki powrót do pracy",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1045,
+        "module": "B1",
+        "question": "Jaki jest cel stosowania hasła logowania do Windows?",
+        "options": [
+            "Ochrona prywatności i danych przed niepowołanym dostępem",
+            "Zwiększenie szybkości internetu",
+            "Powiększenie pamięci RAM",
+            "Zmiana tapety na pulpicie"
+        ],
+        "answer": "Ochrona prywatności i danych przed niepowołanym dostępem",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1046,
+        "module": "B1",
+        "question": "Do czego służy 'Eksplorator plików' (File Explorer)?",
+        "options": [
+            "Do przeglądania plików i folderów na dyskach",
+            "Do przeglądania stron internetowych",
+            "Do usuwania wirusów",
+            "Do pisania dokumentów"
+        ],
+        "answer": "Do przeglądania plików i folderów na dyskach",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1047,
+        "module": "B1",
+        "question": "Czym różni się 'Zapisz' od 'Zapisz jako'?",
+        "options": [
+            "'Zapisz jako' pozwala wybrać nową nazwę i lokalizację pliku",
+            "Nie ma żadnej różnicy",
+            "'Zapisz' tworzy kopię",
+            "'Zapisz jako' usuwa plik"
+        ],
+        "answer": "'Zapisz jako' pozwala wybrać nową nazwę i lokalizację pliku",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1048,
+        "module": "B1",
+        "question": "Jakie ryzyko niesie trzymanie napojów blisko klawiatury?",
+        "options": [
+            "Zalanie może doprowadzić do zwarcia i zniszczenia sprzętu",
+            "Napoje odparowują i chłodzą procesor",
+            "Przyspiesza to pisanie",
+            "Klawiatura lepiej działa"
+        ],
+        "answer": "Zalanie może doprowadzić do zwarcia i zniszczenia sprzętu",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1049,
+        "module": "B1",
+        "question": "Co to jest 'BHP pracy przed komputerem'?",
+        "options": [
+            "Zasady bezpiecznej i ergonomicznej pracy",
+            "Katalog instalacyjny systemu",
+            "Rodzaj zasilacza",
+            "Program antywirusowy"
+        ],
+        "answer": "Zasady bezpiecznej i ergonomicznej pracy",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1050,
+        "module": "B2",
+        "question": "Co oznacza skrót WWW?",
+        "options": [
+            "World Wide Web",
+            "Wide World Web",
+            "World Web Wide",
+            "Windows Web World"
+        ],
+        "answer": "World Wide Web",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1051,
+        "module": "B2",
+        "question": "Który z poniższych programów to przeglądarka internetowa?",
+        "options": [
+            "Google Chrome",
+            "Microsoft Word",
+            "Windows 10",
+            "Adobe Reader"
+        ],
+        "answer": "Google Chrome",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1052,
+        "module": "B2",
+        "question": "Do czego służy adres IP?",
+        "options": [
+            "Do jednoznacznej identyfikacji urządzenia w sieci",
+            "Do ochrony przed wirusami",
+            "Do zwiększania prędkości",
+            "Do logowania do e-maila"
+        ],
+        "answer": "Do jednoznacznej identyfikacji urządzenia w sieci",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1053,
+        "module": "B2",
+        "question": "Co to jest 'URL'?",
+        "options": [
+            "Adres strony internetowej",
+            "Typ wirusa",
+            "Rozszerzenie pliku tekstowego",
+            "Karta graficzna"
+        ],
+        "answer": "Adres strony internetowej",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1054,
+        "module": "B2",
+        "question": "Który skrót oznacza szyfrowane, bezpieczne połączenie ze stroną WWW?",
+        "options": [
+            "HTTPS",
+            "HTTP",
+            "FTP",
+            "HTML"
+        ],
+        "answer": "HTTPS",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1055,
+        "module": "B2",
+        "question": "Co to jest Phishing?",
+        "options": [
+            "Wyzłudzanie danych (np. haseł) podszywając się pod zaufaną instytucję",
+            "Wirus niszczący sprzęt",
+            "Program do rysowania",
+            "Legalna reklama internetowa"
+        ],
+        "answer": "Wyzłudzanie danych (np. haseł) podszywając się pod zaufaną instytucję",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1056,
+        "module": "B2",
+        "question": "Jak wygląda symbol bezpiecznego połączenia w przeglądarce?",
+        "options": [
+            "Ikona zamkniętej kłódki przy adresie URL",
+            "Czerwony wykrzyknik",
+            "Ikona otwartej kłódki",
+            "Przekreślone oko"
+        ],
+        "answer": "Ikona zamkniętej kłódki przy adresie URL",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1057,
+        "module": "B2",
+        "question": "Co to jest 'Spam'?",
+        "options": [
+            "Niezamówiona korespondencja masowa (często reklamowa)",
+            "Silne hasło",
+            "Program antywirusowy",
+            "Odpłatna subskrypcja"
+        ],
+        "answer": "Niezamówiona korespondencja masowa (często reklamowa)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1058,
+        "module": "B2",
+        "question": "Czym jest 'Załącznik' (Attachment) w e-mailu?",
+        "options": [
+            "Plikiem dołączonym do wiadomości",
+            "Tematem wiadomości",
+            "Adresem odbiorcy",
+            "Podpisem elektronicznym"
+        ],
+        "answer": "Plikiem dołączonym do wiadomości",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1059,
+        "module": "B2",
+        "question": "Co oznacza skrót UDW (BCC) w poczcie e-mail?",
+        "options": [
+            "Ukryte Do Wiadomości (adresaci nie widzą się nawzajem)",
+            "Uwaga Do Wiadomości",
+            "Usunięte Do Wiadomości",
+            "Ulubieni Do Wiadomości"
+        ],
+        "answer": "Ukryte Do Wiadomości (adresaci nie widzą się nawzajem)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1060,
+        "module": "B2",
+        "question": "Co to jest 'Netykieta'?",
+        "options": [
+            "Zbiór niepisanych zasad kultury w Internecie",
+            "Zabezpieczenie sieciowe",
+            "Marka routera",
+            "Oprogramowanie serwera"
+        ],
+        "answer": "Zbiór niepisanych zasad kultury w Internecie",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1061,
+        "module": "B2",
+        "question": "Używanie samych DUŻYCH LITER w e-mailu to według netykiety:",
+        "options": [
+            "Krzyk",
+            "Uprzejmość",
+            "Standard branżowy",
+            "Wymóg prawny"
+        ],
+        "answer": "Krzyk",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1062,
+        "module": "B2",
+        "question": "Czym jest 'Router'?",
+        "options": [
+            "Urządzeniem łączącym urządzenia lokalne z siecią Internet",
+            "Draiwrem",
+            "Dyskiem zewnętrznym",
+            "Zasilaczem"
+        ],
+        "answer": "Urządzeniem łączącym urządzenia lokalne z siecią Internet",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1063,
+        "module": "B2",
+        "question": "Co oznacza skrót Wi-Fi?",
+        "options": [
+            "Bezprzewodowa sieć lokalna",
+            "Wired Fidelity",
+            "Wide Fiber",
+            "Windows Firewall"
+        ],
+        "answer": "Bezprzewodowa sieć lokalna",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1064,
+        "module": "B2",
+        "question": "Które hasło jest najbardziej bezpieczne (silne)?",
+        "options": [
+            "zR3#kL9@pQ1!",
+            "haslo123",
+            "admin",
+            "qazwsx"
+        ],
+        "answer": "zR3#kL9@pQ1!",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1065,
+        "module": "B2",
+        "question": "Co robi program antywirusowy?",
+        "options": [
+            "Wykrywa i usuwa złośliwe oprogramowanie",
+            "Przyspiesza internet",
+            "Czyści historię przeglądarki",
+            "Tworzy strony WWW"
+        ],
+        "answer": "Wykrywa i usuwa złośliwe oprogramowanie",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1066,
+        "module": "B2",
+        "question": "Do czego służy 'Historia przeglądania'?",
+        "options": [
+            "Do zapisu odwiedzonych wcześniej stron",
+            "Do blokowania wirusów",
+            "Do płatności online",
+            "Do zmiany hasła"
+        ],
+        "answer": "Do zapisu odwiedzonych wcześniej stron",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1067,
+        "module": "B2",
+        "question": "Czym są 'Ciasteczka' (Cookies) w przeglądarce?",
+        "options": [
+            "Małymi plikami z danymi preferencji i sesji strony",
+            "Wirusami wyciągającymi hasła",
+            "Reklamami pop-up",
+            "Błędami systemu"
+        ],
+        "answer": "Małymi plikami z danymi preferencji i sesji strony",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1068,
+        "module": "B2",
+        "question": "Co to jest chmura obliczeniowa (Cloud computing)?",
+        "options": [
+            "Usługi i przechowywanie danych na zdalnych serwerach",
+            "Dysk podłączony kablem USB",
+            "Lokalna sieć w biurze",
+            "Antywirus sprzętowy"
+        ],
+        "answer": "Usługi i przechowywanie danych na zdalnych serwerach",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1069,
+        "module": "B2",
+        "question": "Która usługa Google to dysk w chmurze?",
+        "options": [
+            "Google Drive",
+            "Google Chrome",
+            "Google Maps",
+            "Google Docs"
+        ],
+        "answer": "Google Drive",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1070,
+        "module": "B2",
+        "question": "Co oznacza skrót LAN?",
+        "options": [
+            "Local Area Network (sieć lokalna)",
+            "Large Area Network",
+            "Link Access Node",
+            "Light Area Network"
+        ],
+        "answer": "Local Area Network (sieć lokalna)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1071,
+        "module": "B2",
+        "question": "Co to jest Firewall (Zapora sieciowa)?",
+        "options": [
+            "Zabezpieczenie kontrolujące ruch wychodzący i przychodzący",
+            "Urządzenie do niszczenia dysków",
+            "Protokół wysyłania e-maili",
+            "Karta pamięci"
+        ],
+        "answer": "Zabezpieczenie kontrolujące ruch wychodzący i przychodzący",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1072,
+        "module": "B2",
+        "question": "Jakie jest główne zagrożenie korzystania z otwartych, publicznych sieci Wi-Fi?",
+        "options": [
+            "Ryzyko przechwycenia naszych danych przez innych",
+            "Komputer zużywa więcej prądu",
+            "Strony ładują się szybciej",
+            "Limit danych jest zawsze zerowy"
+        ],
+        "answer": "Ryzyko przechwycenia naszych danych przez innych",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1073,
+        "module": "B2",
+        "question": "Czym jest DNS?",
+        "options": [
+            "Systemem zamieniającym nazwy stron na adresy IP",
+            "Dyskiem sieciowym",
+            "Wyszukiwarką internetową",
+            "Kablem światłowodowym"
+        ],
+        "answer": "Systemem zamieniającym nazwy stron na adresy IP",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1074,
+        "module": "B2",
+        "question": "Co oznacza błąd '404 Not Found' w przeglądarce?",
+        "options": [
+            "Strona o podanym adresie nie istnieje",
+            "Brak połączenia z internetem",
+            "Komputer jest zainfekowany",
+            "Hasło jest nieprawidłowe"
+        ],
+        "answer": "Strona o podanym adresie nie istnieje",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1075,
+        "module": "B2",
+        "question": "Co to jest 'Kopia robocza' (Draft) w poczcie e-mail?",
+        "options": [
+            "Zapisana, ale jeszcze niewysłana wiadomość",
+            "Wiadomość usunięta",
+            "Wiadomość oznaczona jako spam",
+            "Zablokowany załącznik"
+        ],
+        "answer": "Zapisana, ale jeszcze niewysłana wiadomość",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1076,
+        "module": "B2",
+        "question": "Dlaczego nie należy klikać w linki od nieznajomych w e-mailach?",
+        "options": [
+            "Mogą prowadzić do stron ze złośliwym kodem (Phishing)",
+            "Pobierają opłatę za kliknięcie",
+            "Zmieniają język klawiatury",
+            "Zamykają system"
+        ],
+        "answer": "Mogą prowadzić do stron ze złośliwym kodem (Phishing)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1077,
+        "module": "B2",
+        "question": "Co to jest Malware?",
+        "options": [
+            "Ogólna nazwa na złośliwe oprogramowanie",
+            "Oprogramowanie antywirusowe",
+            "Karta rozszerzeń",
+            "Sklep z aplikacjami"
+        ],
+        "answer": "Ogólna nazwa na złośliwe oprogramowanie",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1078,
+        "module": "B2",
+        "question": "Jak odświeżyć stronę internetową?",
+        "options": [
+            "Klawiszem F5 lub ikoną obróconej strzałki",
+            "Klawiszem Esc",
+            "Kombinacją Alt+Tab",
+            "Zamykając przeglądarkę"
+        ],
+        "answer": "Klawiszem F5 lub ikoną obróconej strzałki",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1079,
+        "module": "B2",
+        "question": "Do czego służy przycisk 'Wstecz' (Back) w przeglądarce?",
+        "options": [
+            "Powrotu do poprzednio odwiedzanej strony",
+            "Zamknięcia przeglądarki",
+            "Wyczyszczenia historii",
+            "Rozpoczęcia pobierania"
+        ],
+        "answer": "Powrotu do poprzednio odwiedzanej strony",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1080,
+        "module": "B2",
+        "question": "Który skrót na klawiaturze pozwala szybko wyszukać tekst na stronie WWW?",
+        "options": [
+            "Ctrl+F",
+            "Ctrl+C",
+            "Ctrl+P",
+            "Ctrl+Z"
+        ],
+        "answer": "Ctrl+F",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1081,
+        "module": "B2",
+        "question": "Co to jest 'Silne uwierzytelnianie' (np. 2FA)?",
+        "options": [
+            "Wymóg podania hasła i dodatkowego kodu (np. z SMS)",
+            "Dwukrotne wpisanie tego samego hasła",
+            "Logowanie z dwóch komputerów",
+            "Zmiana hasła co dwa dni"
+        ],
+        "answer": "Wymóg podania hasła i dodatkowego kodu (np. z SMS)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1082,
+        "module": "B2",
+        "question": "Czy legalne jest pobieranie i udostępnianie płatnych filmów z internetu za darmo?",
+        "options": [
+            "Nie, jest to naruszenie praw autorskich (piractwo)",
+            "Tak, o ile nikomu nie powiemy",
+            "Tak, jeśli film jest starszy niż rok",
+            "Zależy od prędkości internetu"
+        ],
+        "answer": "Nie, jest to naruszenie praw autorskich (piractwo)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1083,
+        "module": "B2",
+        "question": "Co oznacza skrót FTP?",
+        "options": [
+            "File Transfer Protocol (protokół przesyłania plików)",
+            "Fast Transfer Program",
+            "File Text Print",
+            "Free To Play"
+        ],
+        "answer": "File Transfer Protocol (protokół przesyłania plików)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1084,
+        "module": "B2",
+        "question": "Co robi ikona gwiazdki (Zakładki/Ulubione) w przeglądarce?",
+        "options": [
+            "Zapisuje adres strony do szybkiego dostępu w przyszłości",
+            "Ocenia stronę",
+            "Pobiera stronę na dysk",
+            "Udostępnia stronę znajomym"
+        ],
+        "answer": "Zapisuje adres strony do szybkiego dostępu w przyszłości",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1085,
+        "module": "B2",
+        "question": "Czym jest pobieranie (Download)?",
+        "options": [
+            "Kopiowaniem plików z serwera na dysk lokalny",
+            "Wysyłaniem plików na serwer",
+            "Drukowaniem dokumentów",
+            "Aktualizacją systemu"
+        ],
+        "answer": "Kopiowaniem plików z serwera na dysk lokalny",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1086,
+        "module": "B2",
+        "question": "Czym jest wysyłanie (Upload)?",
+        "options": [
+            "Przesyłaniem plików z dysku lokalnego na serwer",
+            "Pobieraniem muzyki",
+            "Zapisywaniem na pendrive",
+            "Kasowaniem z dysku"
+        ],
+        "answer": "Przesyłaniem plików z dysku lokalnego na serwer",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1087,
+        "module": "B2",
+        "question": "Co to jest VoIP (np. Skype)?",
+        "options": [
+            "Technologia przesyłania głosu przez Internet",
+            "Program do edycji wideo",
+            "Rodzaj wirusa",
+            "Sieć kablowa"
+        ],
+        "answer": "Technologia przesyłania głosu przez Internet",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1088,
+        "module": "B2",
+        "question": "Jeśli e-mail ma czerwoną ikonkę wykrzyknika, to zazwyczaj oznacza:",
+        "options": [
+            "Wysoki priorytet wiadomości",
+            "Błąd serwera",
+            "Zainfekowany załącznik",
+            "Usuniętą treść"
+        ],
+        "answer": "Wysoki priorytet wiadomości",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1089,
+        "module": "B2",
+        "question": "Z czego składa się adres e-mail?",
+        "options": [
+            "Nazwy użytkownika, znaku @ i domeny",
+            "Tylko z numeru telefonu",
+            "Ze znaku #, nazwy i hasła",
+            "Z adresu IP i portu"
+        ],
+        "answer": "Nazwy użytkownika, znaku @ i domeny",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1090,
+        "module": "B2",
+        "question": "Czy instytucje takie jak Bank wysyłają prośby o podanie hasła w e-mailu?",
+        "options": [
+            "Nigdy, to sygnał próby oszustwa (Phishingu)",
+            "Tak, w celach weryfikacji raz do roku",
+            "Tak, gdy zapomnimy pinu",
+            "Tylko w weekendy"
+        ],
+        "answer": "Nigdy, to sygnał próby oszustwa (Phishingu)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1091,
+        "module": "B2",
+        "question": "Co to jest Domena internetowa?",
+        "options": [
+            "Unikalna nazwa przypisana do adresu IP (np. google.com)",
+            "Serwer w piwnicy",
+            "Rodzaj przeglądarki",
+            "Skrót klawiszowy"
+        ],
+        "answer": "Unikalna nazwa przypisana do adresu IP (np. google.com)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1092,
+        "module": "B2",
+        "question": "Która domena najwyższego poziomu (TLD) odpowiada Polsce?",
+        "options": [
+            ".pl",
+            ".com",
+            ".eu",
+            ".gov"
+        ],
+        "answer": ".pl",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1093,
+        "module": "B2",
+        "question": "Gdzie znajduje się pole do wpisania adresu URL w przeglądarce?",
+        "options": [
+            "Na samej górze okna (pasek adresu)",
+            "W prawym dolnym rogu",
+            "W stopce strony",
+            "W zasobniku systemowym"
+        ],
+        "answer": "Na samej górze okna (pasek adresu)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1094,
+        "module": "B2",
+        "question": "Jakie jest główne zadanie wyszukiwarki (np. Google)?",
+        "options": [
+            "Indeksowanie stron i wyszukiwanie informacji na podstawie słów kluczowych",
+            "Tworzenie stron WWW",
+            "Blokowanie reklam",
+            "Ochrona antywirusowa"
+        ],
+        "answer": "Indeksowanie stron i wyszukiwanie informacji na podstawie słów kluczowych",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1095,
+        "module": "B2",
+        "question": "Czym jest 'Tryb Incognito' (prywatny)?",
+        "options": [
+            "Trybem, który nie zapisuje historii przeglądania ani ciasteczek na komputerze",
+            "Trybem 100% anonimowości w sieci",
+            "Trybem, który blokuje hakerów",
+            "Trybem, który przyspiesza internet 2-krotnie"
+        ],
+        "answer": "Trybem, który nie zapisuje historii przeglądania ani ciasteczek na komputerze",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1096,
+        "module": "B2",
+        "question": "Który symbol zastępuje dowolny ciąg znaków w niektórych wyszukiwarkach/systemach?",
+        "options": [
+            "Gwiazdka (*)",
+            "Znak zapytania (?)",
+            "Hash (#)",
+            "Małpa (@)"
+        ],
+        "answer": "Gwiazdka (*)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1097,
+        "module": "B2",
+        "question": "Co pozwala nam ograniczyć wyniki w Google tylko do formatu PDF?",
+        "options": [
+            "Dopisanie 'filetype:pdf'",
+            "Wpisanie słowa DUŻYMI literami",
+            "Pogrubienie tekstu",
+            "Użycie nawiasów kwadratowych []"
+        ],
+        "answer": "Dopisanie 'filetype:pdf'",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1098,
+        "module": "B2",
+        "question": "Co oznacza pojęcie 'Cyberprzemoc' (Cyberbullying)?",
+        "options": [
+            "Nękanie, straszenie lub obrażanie za pomocą narzędzi elektronicznych",
+            "Włamanie na konto bankowe",
+            "Tworzenie wirusów",
+            "Kradzież sprzętu"
+        ],
+        "answer": "Nękanie, straszenie lub obrażanie za pomocą narzędzi elektronicznych",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    },
+    {
+        "id": 1099,
+        "module": "B2",
+        "question": "Co robi funkcja 'Odpowiedz wszystkim' w e-mailu?",
+        "options": [
+            "Wysyła odpowiedź do nadawcy oraz wszystkich odbiorców (CC)",
+            "Tylko do nadawcy",
+            "Wysyła odpowiedź do wszystkich z książki adresowej",
+            "Usuwa pozostałych adresatów"
+        ],
+        "answer": "Wysyła odpowiedź do nadawcy oraz wszystkich odbiorców (CC)",
+        "explanation": "Zwróć uwagę na detale w definicjach ze szkolenia z modułu."
+    }
+
 ];

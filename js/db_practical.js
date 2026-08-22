@@ -161,7 +161,7 @@ const db_practical = [
     {
         "id": 18,
         "module": "B3",
-        "title": "Word - Zestaw podsumowujący (22.08)",
+        "title": "Word (22.08)",
         "description": "Zadanie zawiera 20 kroków obejmujących materiał z całego modułu B3. Przećwiczysz m.in. ustawianie marginesów, tworzenie automatycznych spisów treści, stosowanie stylów, justowanie akapitów i wstawianie grafik.<br><br>Pobierz plik ZIP, otwórz załączoną w nim instrukcję (HTML) w przeglądarce i postępuj krok po kroku, pracując na dokumencie <em>Historia_Internetu.txt</em>.",
         "file": "Zadania_Word_Podsumowanie.zip",
         "source": "author",
@@ -170,7 +170,7 @@ const db_practical = [
     {
         "id": 19,
         "module": "B4",
-        "title": "Excel - Zestaw podsumowujący (22.08)",
+        "title": "Excel (22.08)",
         "description": "Zadanie zawiera 20 kroków obejmujących materiał z całego modułu B4. Skupia się na niezbędnych narzędziach ułatwiających pracę biurową. Przećwiczysz m.in. blokowanie wierszy, podstawowe funkcje matematyczne i statystyczne (SUMA, ŚREDNIA, MAX), tworzenie wykresów z etykietami oraz sortowanie.<br><br>Pobierz plik ZIP, otwórz załączoną w nim instrukcję (HTML) i pracuj na dostarczonym pliku <em>Budzet_Firmowy.csv</em>.",
         "file": "Zadania_Excel_Podsumowanie.zip",
         "source": "author",
